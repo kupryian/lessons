@@ -1,0 +1,11 @@
+@font-face {
+  font-family: 'MontserratAlternates-BlackItalic';
+  src: url('MontserratAlternates-BlackItalic.eot');
+  src: url('MontserratAlternates-BlackItalic.eot?#iefix') format('embedded-opentype'),
+       url('MontserratAlternates-BlackItalic.svg#MontserratAlternates-BlackItalic') format('svg'),
+       url('MontserratAlternates-BlackItalic.woff') format('woff'),
+       url('MontserratAlternates-BlackItalic.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+

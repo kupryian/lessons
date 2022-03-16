@@ -1,0 +1,11 @@
+@font-face {
+  font-family: 'IBMPlexMono-Bold';
+  src: url('IBMPlexMono-Bold.eot');
+  src: url('IBMPlexMono-Bold.eot?#iefix') format('embedded-opentype'),
+       url('IBMPlexMono-Bold.svg#IBMPlexMono-Bold') format('svg'),
+       url('IBMPlexMono-Bold.woff') format('woff'),
+       url('IBMPlexMono-Bold.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
