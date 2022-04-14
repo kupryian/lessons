@@ -53,13 +53,14 @@
 .header-cart-icon {
     float: right;
     margin-top: 25px;
-
-
+}
+.header-menu {
+    margin-top: 30px;
+    margin-bottom: 28px;
 }
 .header-menu ul {
     padding-left: 0px;
-    margin-top: 30px;
-    margin-bottom: 28px;
+    margin: 0 0;
 }
 .header-menu li {
     display: inline;
@@ -146,11 +147,13 @@
      margin-left: 286px;
      margin-top: 6px;
  }
+ .sort-product {
+    float: right;
+ }
  .sort-product ul {
     list-style-type: none;
     margin: 0 0;
     padding: 0 0;
-    float: right;
 }
 .sort-product li {
     display: inline;
