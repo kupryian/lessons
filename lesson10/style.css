@@ -144,9 +144,15 @@
     border-bottom: 0px;
  }
  .product {
-     margin-left: 286px;
+     padding-left: 30px;
      margin-top: 6px;
+     float:left;
+     width: 884px;
  }
+ .sort-panel {
+    float: left;
+    width: 100%;
+}
  .sort-product {
     float: right;
  }
@@ -276,8 +282,6 @@
 .catalog-pagination {
     color: #BFBEBE;
     text-align: center;
-    float: left;
-    width: 100%;
     margin-top: 37px;
 }
 .catalog-pagination span{
