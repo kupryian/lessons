@@ -1,10 +1,11 @@
 <!DOCTYPE html>
-<html><head><meta http-equiv="content-type" content="text/html; charset=utf-8" /><title>*** unnamed text ***</title></head><body>
+<html><head><meta http-equiv="content-type" content="text/html; charset=utf-8" /><title>lesson12</title></head><body>
 <style>
 
   table.CHESS
   {
     border-collapse: collapse;
+    counter-reset: chess 101;
   }
 
   table.CHESS td
@@ -12,47 +13,17 @@
     width: 50px;
     height: 50px;
     border: solid gray 1px;
+    
   }
 
-  tr:nth-of-type(odd) td:nth-of-type(even) {
-      background-color: black;
+  td::before {
+    counter-increment: chess -1;
+    content: '' counter(chess);
   }
-  tr:nth-of-type(even) td:nth-of-type(odd) {
-      background-color: black;
-  } 
-   tr:nth-of-type(odd) td:first-of-type {
-    background-color: #90ee90;
-    width: 15px;
+  td:hover:before {
+      background-color: chartreuse;
+      content: 'питух';
   }
-  tr:nth-of-type(even) td:first-of-type {
-    background-color: #90ee90;
-    width: 15px;
-  }
-  tr:nth-of-type(odd) td:last-of-type {
-    background-color: #90ee90;
-    width: 15px;
-  }
-  tr:nth-of-type(even) td:last-of-type {
-    background-color: #90ee90;
-    width: 15px;
-  }
-  tr:first-of-type td:nth-of-type(even) {
-    background-color: #90ee90;
-    height: 15px;
-  }
-  table.CHESS tr:first-of-type td:nth-of-type(odd) {
-    background-color: #90ee90;
-    height: 15px;
-  }
-  tr:last-of-type td:nth-of-type(even) {
-    background-color: #90ee90;
-    height: 15px;
-  }
-  tr:last-of-type td:nth-of-type(odd) {
-    background-color: #90ee90;
-    height: 15px;
-  }
-
 
 </style>
 
@@ -90,3 +61,7 @@
 </table>
 
 </body></html>
+    <br>
+<a href="../">Back to home</a>  
+</body>
+</html>
