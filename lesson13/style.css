@@ -1,0 +1,60 @@
+@media (min-width: 1980px){  
+.contain {
+    width: 1980px;
+    margin: 0 auto;
+    padding-top: 0.1px;
+}
+.sidebar-left {
+    min-width: 126px; width: 15%; float: left;
+}
+.content {
+    margin-left: 15%; 
+    padding-left: 2%; 
+    background: url(../img/ball-opacity.png) top right repeat-y, rgb(255, 255, 255);
+}
+.content-img {
+    width: 20%;
+    float: left; 
+    margin: 0px 20px 0px 0px;
+}
+}
+@media (min-width: 851px) and (max-width: 1979px) {
+    .contain {
+        width: 100%;
+        margin: 0 auto;
+        padding-top: 0.1px;
+    }
+    .sidebar-left {
+        min-width: 126px; width: 15%; float: left;
+    }
+    .content {
+        margin-left: 15%; 
+        padding-left: 2%; 
+        background: url(../img/ball-opacity.png) top right repeat-y, rgb(255, 255, 255);
+    }   
+    .content-img {
+        width: 248.2px;
+        float: left; 
+        margin: 0px 20px 0px 0px;
+    }
+}
+@media screen and (max-width: 850px){
+    .contain {
+        width: 100%;
+        margin: 0 auto;
+        padding-top: 0.1px;
+    }
+    .sidebar-left {
+        padding-top: 0.1px;
+        float: none;
+        width: 100%;
+    }   
+    .content {
+        padding-left: 2%; 
+        background: url(../img/ball-opacity.png) top right repeat-y, rgb(255, 255, 255);
+    }
+    .content-img {
+        width: 100%;
+        margin: 0px 20px 0px 0px;
+    }
+}
