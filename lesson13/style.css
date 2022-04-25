@@ -17,6 +17,9 @@
     float: left; 
     margin: 0px 20px 0px 0px;
 }
+.content p {
+    padding: 0px 10px 10px 0px;
+}
 }
 @media (min-width: 851px) and (max-width: 1979px) {
     .contain {
@@ -37,8 +40,11 @@
         float: left; 
         margin: 0px 20px 0px 0px;
     }
+    .content p {
+        padding: 0px 10px 10px 0px;
+    }
 }
-@media screen and (max-width: 850px){
+@media screen and (max-width: 849px){
     .contain {
         width: 100%;
         margin: 0 auto;
@@ -50,8 +56,10 @@
         width: 100%;
     }   
     .content {
-        padding-left: 2%; 
         background: url(../img/ball-opacity.png) top right repeat-y, rgb(255, 255, 255);
+    }
+    .content p {
+        padding: 5px;
     }
     .content-img {
         width: 100%;
