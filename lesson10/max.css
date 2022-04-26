@@ -299,7 +299,7 @@
     text-align: center;
 }
 .best-seller-cart {
-    width: 276px;
+    width: 260px;
     height: 276px;
     border: 1px solid #BFBEBE;
     float: left;
@@ -322,12 +322,14 @@
     padding-bottom: 64px;
 }
 .best-seller-arrow-left {
-    margin-left: 8%;
+    margin-left: 0%;
+    margin-right: 1%;
     margin-top: 13%;
     float: left;
 }
 .best-seller-arrow-right {
-    margin-right: 8%;
+    margin-right: 0%;
+    margin-left: 1%;
     margin-top: 13%;
     float: right;
 }
