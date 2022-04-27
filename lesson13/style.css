@@ -1,4 +1,4 @@
-@media all and (min-width: 1980px){  
+@media all and (max-width: 3000px){  
 .contain {
     width: 1980px;
     margin: 0 auto;
@@ -21,7 +21,7 @@
     padding: 0px 10px 10px 0px;
 }
 }
-@media all and (min-width: 850.1px) and (max-width: 1979px) {
+@media all and (max-width: 2000px){  
     .contain {
         width: 100%;
         margin: 0 auto;
@@ -34,7 +34,7 @@
         margin-left: 200px; 
         padding-left: 2%; 
         background: url(../img/ball-opacity.png) top right repeat-y, rgb(255, 255, 255);
-    }   
+    }
     .content-img {
         width: 250px;
         float: left; 
@@ -43,7 +43,7 @@
     .content p {
         padding: 0px 10px 10px 0px;
     }
-}
+    }
 @media all and (max-width: 850px){
     .contain {
         width: 100%;
@@ -57,6 +57,7 @@
     }   
     .content {
         background: url(../img/ball-opacity.png) top right repeat-y, rgb(255, 255, 255);
+        margin-left: 0px;
     }
     .content p {
         padding: 5px;

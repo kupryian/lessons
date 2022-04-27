@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        a {
+            color: green;
+        }
+        a:hover {
+            color: red
+        }
+        .menu-1 ul {
+            list-style-type: none;
+            padding: 0 0;
+            margin: 0 0;
+        }
+        .menu-1 li {
+            display: inline;
+            border-right: red 2px solid;
+            padding-right: 2px;
+        }
+        .menu-1 li:last-child {
+            border: none;
+        }
+        .menu-2 div {
+            display: inline;
+            border-right: red 2px solid;
+            padding-right: 2px;
+        }
+        .menu-2 div:last-child {
+            border: none;
+        }
+        .menu-3 div {
+            float: left;
+            padding-right: 2px;
+            padding-left: 4px;
+        }
+        .menu-3 div:first-child {
+            padding-left: 0px;
+        }
+        .menu-3 div:nth-child(even) {
+            width: 2px;
+            height: 20px;
+            background-color: red;
+            padding: 0px;
+        }
+        .menu-3 div:last-child {
+            background-color: transparent;
+        }
+    </style>
+    <title>Links</title>
+</head>
+<body>
+    <div>
+    <div class="menu-1"> 
+        <!-- тут li в линию с границей справа красной -->
+        <ul>
+            <li><a href="#">Первая ссылка</a></li>
+            <li><a href="#">Вторая ссылка</a></li>
+            <li><a href="#">Третья ссылка</a></li>
+            <li><a href="#">Четвертая ссылка</a></li>
+            <li><a href="#">Пятая ссылка</a></li>
+        </ul>
+    </div>
+    <div class="menu-2">
+        <!-- div в линию с границей справа -->
+        <div><a href="#">Первая ссылка</a></div>
+        <div><a href="#">Вторая ссылка</a></div>
+        <div><a href="#">Третья ссылка</a></div>
+        <div><a href="#">Четвертая ссылка</a></div>
+        <div><a href="#">Пятая ссылка</a></div>
+    </div>
+    <div class="menu-3">
+        <!-- div зафлочен с блоком разделителем в 2px -->
+        <div><a href="#">Первая ссылка</a></div><div></div>
+        <div><a href="#">Вторая ссылка</a></div><div></div>
+        <div><a href="#">Третья ссылка</a></div><div></div>
+        <div><a href="#">Четвертая ссылка</a></div><div></div>
+        <div><a href="#">Пятая ссылка</a></div><div></div>
+    </div>
+    <div style="clear: both;"></div>
+    </div>
+    <br>
+    <a href="../">Back to home</a>   
+</body>
+</html>
