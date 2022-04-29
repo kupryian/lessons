@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="https://fe.it-academy.by/TestForm.php" method="get">
+        <fieldset style="border: green 2px dotted; display: inline;">
+            <legend>На кредит заявочка</legend>
+        Фамилия: <input type="text" name="фамилия"><br>
+        Имя: <input type="text" name="имя"><br>
+        Отчество: <input type="text" name="Отчетство"><br>
+        Е-maeil для связи: <input type="email" name="email"><br>
+        Согласен с правилами сайта: <input type="checkbox" name="Согласен с правилами сайта" value="согласен"><br>
+        Вид деятельности: <br> 
+        <input type="radio" name="Вид деятельности" value="Пенсионер">Пенсионер<br>
+        <input type="radio" name="Вид деятельности" value="Рабочий">Рабочий<br>
+        <input type="radio" name="Вид деятельности" value="Палладин">Палладин<br>
+        <input type="radio" name="Вид деятельности" value="Студент">Студент<br>
+        Водительские права: <br>
+        <label><input type="checkbox" name="права[]" value="A">A<br></label>
+        <label><input type="checkbox" name="права[]" value="B">B<br></label>
+        <label><input type="checkbox" name="права[]" value="C">C<br></label>
+        <label><input type="checkbox" name="права[]" value="D">D<br></label>
+    
+        Ваша зп: <select name="Ваша зп">
+        <option value="100$">100$</option>
+        <option value="200$">200$</option>
+        <option value="300$">300$</option>
+        <option value="1000$" disabled>1000$</option>
+        </select>
+        <br>
+        <textarea name="Отзыв" id="" cols="30" rows="10" placeholder="впиши отзыв"></textarea><br>
+        <input type="submit" value="Регистрация">
+    </fieldset>
+    </form>
+</body>
+</html>
