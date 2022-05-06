@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="form_style.css">
+    <title>FORM</title>
+</head>
+<body>
+    <form action="https://fe.it-academy.by/TestForm.php" method="get">
+        <fieldset class="form-style">
+        <div class="clearfix">
+            <div class="name-field">Название статьи:</div> 
+            <div class="form-input">
+                <input type="text" name="фамилия">
+            </div>
+        </div>
+        <div class="clearfix">
+            <div class="name-field">Рубрика:</div> 
+            <div class="form-input">
+                <select name="" >
+                    <option value="программирование">программирование</option>
+                    <option value="разгильдяйство">разгильдяйство</option>
+                </select>
+            </div>
+        </div>
+        <div class="clearfix">
+            <div class="name-field">Публикация:</div> 
+            <div class="form-input-default">
+                <div class="radio-button"><input type="radio" name="Вид деятельности">На сайте</div>
+                <div class="radio-button"><input type="radio" name="Вид деятельности">В журнале</div>
+                <div class="radio-button"><input type="radio" name="Вид деятельности">на сайте и в журнале</div>
+            </div>
+        </div>
+        <span>Разрешить комментарии:</span><input type="checkbox" name="права"> <br>
+        Текст статьи:<br>
+            <textarea name="Отзыв" id="" cols="30" rows="5"></textarea>
+    </fieldset>
+    </form>
+</body>
+</html>
