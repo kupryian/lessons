@@ -1,0 +1,78 @@
+@media all and (max-width: 3000px){  
+    .contain {
+        width: 1980px;
+        margin: 0 auto;
+        padding-top: 0.1px;
+    }
+    .sidebar-left {
+        width: 200px; float: left;
+    }
+    .content {
+        margin-left: 200px; 
+        padding-left: 2%; 
+        background: url(../img/ball-opacity.png) top right repeat-y, rgb(255, 255, 255);
+    }
+    .content-img {
+        width: 250px;
+        float: left; 
+        margin: 0px 20px 0px 0px;
+    }
+    .content p {
+        padding: 0px 10px 10px 0px;
+    }
+    }
+    @media all and (max-width: 2000px){  
+        .contain {
+            width: 100%;
+            margin: 0 auto;
+            padding-top: 0.1px;
+        }
+        .sidebar-left {
+            width: 200px; float: left;
+        }
+        .content {
+            margin-left: 200px; 
+            padding-left: 2%; 
+            background: url(../img/ball-opacity.png) top right repeat-y, rgb(255, 255, 255);
+        }
+        .content-img {
+            width: 250px;
+            float: left; 
+            margin: 0px 20px 0px 0px;
+        }
+        .content p {
+            padding: 0px 10px 10px 0px;
+        }
+        }
+    @media all and (max-width: 850px){
+        .contain {
+            width: 100%;
+            margin: 0 auto;
+            padding-top: 0.1px;
+        }
+        .sidebar-left {
+            padding-top: 0.1px;
+            float: none;
+            width: 100%;
+        }   
+        .content {
+            background: url(../img/ball-opacity.png) top right repeat-y, rgb(255, 255, 255);
+            margin-left: 0px;
+        }
+        .content p {
+            padding: 5px;
+        }
+        .content-img {
+            width: 100%;
+            padding: 0px 40px;
+        }
+    }
+.banner {
+    position: fixed;
+    right: 20px;
+    top: 20px;
+    background-color: lightgreen;
+    border: solid green 1px;
+    width: 104px;
+    padding: 10px;
+}
