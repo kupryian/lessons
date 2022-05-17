@@ -1,0 +1,56 @@
+$first_color: #000000;
+$second_color: #ffffff;
+$three_color: #FADE4B;
+$four_color: #99938A;
+$main_p_size: 14px;
+
+@mixin header_footer () {
+    color: $second_color;
+    background-color: $first_color;
+    font-size: $main_p_size;
+    p {
+        font-size: $main_p_size;
+    }
+    li {
+        color: $second_color;
+        font-size: $main_p_size;
+    }
+}
+.wrap {
+    display: flex;
+}
+.contain {
+    width: 1140px;
+    margin: 0 auto;
+    border-top: 0.1px;
+}
+.head_top {
+    @include header_footer;
+    margin: 14px 0px;
+    ul {
+        margin: 18px 0px;
+        display: flex; 
+        }
+        li {
+            margin-left: 18px;
+   
+    }
+    .menu {
+        li {
+        margin-left: 26px;
+        color: $four_color;
+        text-decoration-line: underline;
+        }
+        li:first-child {
+            margin-left: 50px;
+        }
+    }  
+    .button_location {
+        padding: 4px 8px 4px 8px;
+        border-radius: 31px;
+        background-color: rgba(255, 255, 255, 0.2);
+        img {
+            margin-bottom: 2px;
+        }
+    }
+}
