@@ -26,14 +26,12 @@ $main_p_size: 14px;
 }
 .head_top {
     @include header_footer;
-    margin: 14px 0px;
     ul {
         margin: 18px 0px;
         display: flex; 
         }
         li {
             margin-left: 18px;
-   
     }
     .menu {
         li {
@@ -46,11 +44,71 @@ $main_p_size: 14px;
         }
     }  
     .button_location {
+        margin: 14px 0px;
         padding: 4px 8px 4px 8px;
         border-radius: 31px;
         background-color: rgba(255, 255, 255, 0.2);
         img {
             margin-bottom: 2px;
         }
+    }
+}
+.head-icon {
+    margin-bottom: 4px;
+}
+.head_bottom {    
+    @include header_footer;
+    .wrap_head {
+        display: flex;
+        justify-content: space-between;
+    }
+    ul {
+        display: flex;
+        justify-content: space-between;
+        width: 250px;
+        margin-top: 11px;
+        }
+        li {   
+    }
+    .menu {
+        li {
+        margin-left: 26px;
+        color: $four_color;
+        text-decoration-line: underline;
+        }
+        li:first-child {
+            margin-left: 50px;
+        }
+    }  
+    .button_menu {
+        padding: 14px 20px 14px 20px;
+        border-radius: 8px;
+        background-color: $three_color;
+        color: $first_color;
+        margin: 14px 0px 24px 0px;
+
+    }
+    .logo-header-text {
+        font-size: 26px;
+        font-weight: 500;
+        margin-top: 23px;
+        margin-left: -23px;
+    }
+    .head_search {
+        display: flex;
+        padding: 20px 20px;
+        background-color: rgba(255,255,255, 0.25);
+        width: 459px;
+        height: 56px;
+        border-radius: 60px;
+        margin-top: 8px;
+        justify-content: space-between;
+        p {
+            opacity: 0.6;
+        }
+        img {
+            align-self:flex-end;
+        }
+    
     }
 }

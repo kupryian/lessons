@@ -11,8 +11,7 @@
 .head_top {
   color: #ffffff;
   background-color: #000000;
-  font-size: 14px;
-  margin: 14px 0px; }
+  font-size: 14px; }
   .head_top p {
     font-size: 14px; }
   .head_top li {
@@ -33,10 +32,76 @@
   .head_top .menu li:first-child {
     margin-left: 50px; }
   .head_top .button_location {
+    margin: 14px 0px;
     padding: 4px 8px 4px 8px;
     border-radius: 31px;
     background-color: rgba(255, 255, 255, 0.2); }
     .head_top .button_location img {
       margin-bottom: 2px; }
+
+.head-icon {
+  margin-bottom: 4px; }
+
+.head_bottom {
+  color: #ffffff;
+  background-color: #000000;
+  font-size: 14px; }
+  .head_bottom p {
+    font-size: 14px; }
+  .head_bottom li {
+    color: #ffffff;
+    font-size: 14px; }
+  .head_bottom .wrap_head {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between; }
+  .head_bottom ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    width: 250px;
+    margin-top: 11px; }
+  .head_bottom .menu li {
+    margin-left: 26px;
+    color: #99938A;
+    -webkit-text-decoration-line: underline;
+            text-decoration-line: underline; }
+  .head_bottom .menu li:first-child {
+    margin-left: 50px; }
+  .head_bottom .button_menu {
+    padding: 14px 20px 14px 20px;
+    border-radius: 8px;
+    background-color: #FADE4B;
+    color: #000000;
+    margin: 14px 0px 24px 0px; }
+  .head_bottom .logo-header-text {
+    font-size: 26px;
+    font-weight: 500;
+    margin-top: 23px;
+    margin-left: -23px; }
+  .head_bottom .head_search {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 20px 20px;
+    background-color: rgba(255, 255, 255, 0.25);
+    width: 459px;
+    height: 56px;
+    border-radius: 60px;
+    margin-top: 8px;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between; }
+    .head_bottom .head_search p {
+      opacity: 0.6; }
+    .head_bottom .head_search img {
+      -ms-flex-item-align: end;
+          align-self: flex-end; }
 
 /*# sourceMappingURL=style.css.map */
