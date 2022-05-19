@@ -3,6 +3,8 @@ $second_color: #ffffff;
 $three_color: #FADE4B;
 $four_color: #99938A;
 $main_p_size: 14px;
+$second_p_size: 14px;
+$contain: 1140px;
 
 @mixin header_footer () {
     color: $second_color;
@@ -20,7 +22,7 @@ $main_p_size: 14px;
     display: flex;
 }
 .contain {
-    width: 1140px;
+    width: $contain;
     margin: 0 auto;
     border-top: 0.1px;
 }
@@ -86,6 +88,8 @@ $main_p_size: 14px;
         background-color: $three_color;
         color: $first_color;
         margin: 14px 0px 24px 0px;
+        font-size: 18px;
+        font-weight: 500;
 
     }
     .logo-header-text {
@@ -110,5 +114,42 @@ $main_p_size: 14px;
             align-self:flex-end;
         }
     
+    }
+}
+.slider {
+    margin: 31px 0px;
+    .slider_bg {
+        color: $second_color;
+        position: relative;
+        width: $contain;
+        height: 360px;
+        border-radius: 10px;
+        background-image: url(/lessons/photoshop.by/img/image61.jpg);
+        padding: 44px 88px;
+        .slider_title {
+            font-size: 32px;
+            font-weight: 700;
+        }
+        .slider_description {
+            margin: 22px 0px 42px 0px;
+            opacity: 0.6;
+        }
+        .slider_button {
+            color: $three_color;
+            padding: 14px 52px;
+            border-radius: 28px;
+            border: solid 2px;
+            display: inline-block;
+        }
+    }
+    .slider_navi_left {
+        position: absolute;
+        top: 45%;
+        left: 2%;
+    }
+    .slider_navi_rigth {
+        position: absolute;
+        top: 45%;
+        right: 2%;
     }
 }

@@ -79,7 +79,9 @@
     border-radius: 8px;
     background-color: #FADE4B;
     color: #000000;
-    margin: 14px 0px 24px 0px; }
+    margin: 14px 0px 24px 0px;
+    font-size: 18px;
+    font-weight: 500; }
   .head_bottom .logo-header-text {
     font-size: 26px;
     font-weight: 500;
@@ -103,5 +105,36 @@
     .head_bottom .head_search img {
       -ms-flex-item-align: end;
           align-self: flex-end; }
+
+.slider {
+  margin: 31px 0px; }
+  .slider .slider_bg {
+    color: #ffffff;
+    position: relative;
+    width: 1140px;
+    height: 360px;
+    border-radius: 10px;
+    background-image: url(/lessons/photoshop.by/img/image61.jpg);
+    padding: 44px 88px; }
+    .slider .slider_bg .slider_title {
+      font-size: 32px;
+      font-weight: 700; }
+    .slider .slider_bg .slider_description {
+      margin: 22px 0px 42px 0px;
+      opacity: 0.6; }
+    .slider .slider_bg .slider_button {
+      color: #FADE4B;
+      padding: 14px 52px;
+      border-radius: 28px;
+      border: solid 2px;
+      display: inline-block; }
+  .slider .slider_navi_left {
+    position: absolute;
+    top: 45%;
+    left: 2%; }
+  .slider .slider_navi_rigth {
+    position: absolute;
+    top: 45%;
+    right: 2%; }
 
 /*# sourceMappingURL=style.css.map */
