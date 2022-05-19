@@ -1,3 +1,8 @@
+h2 {
+  font-size: 32px;
+  font-weight: 500;
+  color: #000000; }
+
 .wrap {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -225,5 +230,31 @@
           margin-bottom: 4px; }
         .sale_product ul li .sale_medal_25 span {
           font-size: 26px; }
+
+.sale_hits {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
+  .sale_hits div {
+    width: 230px; }
+    .sale_hits div img {
+      display: block;
+      margin: 0 auto; }
+    .sale_hits div p {
+      color: #99938A; }
+    .sale_hits div .price_cart {
+      display: inline;
+      font-size: 18px;
+      font-weight: 700;
+      color: #000000; }
+    .sale_hits div .old_price_cart {
+      display: inline;
+      margin-left: 5px;
+      text-decoration: line-through; }
 
 /*# sourceMappingURL=style.css.map */

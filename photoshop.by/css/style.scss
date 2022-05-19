@@ -7,6 +7,11 @@ $main_p_size: 14px;
 $second_p_size: 16px;
 $contain: 1140px;
 
+h2 {
+    font-size: 32px;
+    font-weight: 500;
+    color: $first_color;
+}
 @mixin header_footer () {
     color: $second_color;
     background-color: $first_color;
@@ -245,4 +250,31 @@ $contain: 1140px;
             }
         }
     } 
+}
+.sale_hits {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    div {
+        width: 230px;
+        img {
+            display: block;
+            margin: 0 auto;
+        }
+        p {
+            color: $four_color;
+         }
+         .price_cart {
+            display: inline;
+            font-size: 18px;
+            font-weight: 700;
+            color: $first_color;
+            }
+        .old_price_cart {
+                display: inline;
+                margin-left: 5px;
+                text-decoration: line-through;
+        }
+        
+    }
 }
