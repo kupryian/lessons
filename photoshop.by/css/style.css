@@ -241,12 +241,17 @@ h2 {
       -ms-flex-pack: justify;
           justify-content: space-between; }
   .sale_hits div {
-    width: 230px; }
+    width: 228px;
+    position: relative; }
     .sale_hits div img {
-      display: block;
-      margin: 0 auto; }
+      width: 100%;
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      margin: auto 0; }
     .sale_hits div p {
-      color: #99938A; }
+      color: #99938A;
+      margin: 5px 0px; }
     .sale_hits div .price_cart {
       display: inline;
       font-size: 18px;
@@ -254,7 +259,19 @@ h2 {
       color: #000000; }
     .sale_hits div .old_price_cart {
       display: inline;
-      margin-left: 5px;
+      margin: 0px 5px;
       text-decoration: line-through; }
+    .sale_hits div .sale_hits_img {
+      width: 170px;
+      height: 170px;
+      margin: 10px auto; }
+
+.sale_hist_viev_more {
+  padding: 14px 56px;
+  background-color: rgba(220, 220, 220, 0.3);
+  border-radius: 28px;
+  width: 220px;
+  margin: 32px auto;
+  font-weight: 600; }
 
 /*# sourceMappingURL=style.css.map */
