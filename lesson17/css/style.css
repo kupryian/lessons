@@ -1,0 +1,35 @@
+.wrap {
+  display: flex; }
+
+.contain {
+  width: 1140px;
+  margin: 0 auto;
+  border-top: 0.1px; }
+
+.head_top {
+  color: #ffffff;
+  background-color: #000000;
+  font-size: 14px;
+  margin: 14px 0px; }
+  .head_top p {
+    font-size: 14px; }
+  .head_top li {
+    color: #ffffff;
+    font-size: 14px; }
+  .head_top ul {
+    margin: 18px 0px;
+    display: flex; }
+    .head_top ul .menu {
+      color: #99938A;
+      text-decoration-line: underline;
+      margin: 26px 0px; }
+  .head_top li {
+    margin-left: 18px; }
+  .head_top .button_location {
+    padding: 4px 8px 4px 8px;
+    border-radius: 31px;
+    background-color: rgba(255, 255, 255, 0.2); }
+    .head_top .button_location img {
+      margin-bottom: 2px; }
+
+/*# sourceMappingURL=style.css.map */
