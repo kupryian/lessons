@@ -12,20 +12,28 @@
         var family=prompt('Введите вашу фамилию'); // ввод фамилии
         var name=prompt('Введите ваше имя'); // ввод имени
         var father_name=prompt('Введите вае отчество'); // ввод отчества
+       
         do {
         var ageStr=prompt('Введите ваш возраст'); // ввод возраста
         var age=parseInt(ageStr); // перевод данных в число (если не число то получится НАН)
          } while ( isNaN(age) ); // если НАН цикл запускается опять, если нет - прекращается
+
         var after_5_years=age+5; // возраст плюс 5 лет
         var days=age*365; // возраст в днях
         var sex=confirm('Ваш пол мужской?'); // вопрос на пол
         var text_sex=sex ? 'Мужской' : 'Женский'; // если ответ да- то мужской, если нет - то женский
         var pensioner;
-        if (age<65) { 
-            pensioner='Нет'; 
+        if (sex==true) { 
+            if (age<63) 
+                pensioner='Нет'; 
+            else 
+                pensioner='да';
         }
         else {
-            pensioner='Да';
+            if (age<58) 
+                pensioner='Нет';
+            else 
+                pensioner='да';
         }
         alert('Ваше ФИО: '+(family)+' '+(name)+' '+(father_name)+'\nВаш возраст в годах: '+(age)+'\nВаш возраст в днях: '+(days)+'\nЧерез 5 лет Вам будет: '+(after_5_years)+'\nВаш пол: '+(text_sex)+'\nВы на пенсии: '+(pensioner));
     </script>
@@ -33,3 +41,5 @@
      <a href="../">Back to home</a>  
 </body>
 </html>
+
+

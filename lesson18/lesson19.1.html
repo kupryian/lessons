@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        .wrap {
+            width: 200px;
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .wrap div {
+            width: 50px;
+            height: 50px;
+            background-color: white;
+            color: black;
+            text-align: center;
+        }
+        .wrap div:nth-child(13) {
+            width: 100px;
+        }
+        .wrap div:hover {
+            background-color: red;
+            color: white;
+        }
+</style>
+</head>
+<body>
+    <!-- <div class="wrap">
+        <div onclick="getNumber(1)">1</div>
+        <div onclick="getNumber(2)">2</div>
+        <div onclick="getNumber(3)">3</div>
+        <div onclick="getOper('+')">+</div>
+        <div onclick="getNumber(4)">4</div>
+        <div onclick="getNumber(5)">5</div>
+        <div onclick="getNumber(6)">6</div>
+        <div onclick="getOper('-')">-</div>
+        <div onclick="getNumber(7)">7</div>
+        <div onclick="getNumber(8)">8</div>
+        <div onclick="getNumber(9)">9</div>
+        <div onclick="getOper('/')">/</div>
+        <div onclick="getNumber(0)">0</div>
+        <div onclick="result()">=</div>
+        <div onclick="getNumber('*')">*</div>
+    </div>
+    
+    <script>
+        var num1 = null;
+        var num2 = null;
+        var operation;
+
+        function getOper(x) {
+            operation=x
+        }
+
+        function getNumber(y) {
+            if (num1 === null) {
+                num1 = y
+            } else {
+                num2 = y
+            }
+        }
+        
+        function result() {
+        switch(operation) {
+            case '+': alert(num1+num2);break;
+            case '-': alert(num1-num2);break;
+            case '*': alert(num1*num2);break;
+            case '/': alert(num1/num2);break;
+        }
+    }
+    </script> -->
+    <div class="wrap">
+        <div onclick="GetNum(1)">1</div>
+        <div onclick="GetNum(2)">2</div>
+        <div onclick="GetNum(3)">3</div>
+        <div onclick="GetOperation('+')">+</div>
+        <div onclick="GetNum(4)">4</div>
+        <div onclick="GetNum(5)">5</div>
+        <div onclick="GetNum(6)">6</div>
+        <div onclick="GetOperation('-')">-</div>
+        <div onclick="GetNum(7)">7</div>
+        <div onclick="GetNum(8)">8</div>
+        <div onclick="GetNum(9)">9</div>
+        <div onclick="GetOperation('*')">*</div>
+        <div onclick="GetNum(0)">0</div>
+        <div onclick="GetResult()">=</div>
+        <div onclick="GetOperation('/')">/</div>
+    </div>
+    
+    <script>
+        var Number1 = null;
+        var Number2;
+        var Operation;
+
+        function GetNum(x) {
+            if (Number1 === null) {
+                Number1 = x
+            }
+           else {
+               Number2 = x
+           }
+        }
+
+        function GetOperation(y) {
+            Operation = y
+        }
+
+        function GetResult() {
+            switch (Operation) {
+                case '+': alert(Number1+Number2);break;
+                case '-': alert(Number1-Number2);break;
+                case '*': alert(Number1*Number2);break;
+                case '/': alert(Number1/Number2);break;
+            }
+
+        }
+
+
+
+
+    </script>
+</body>
+</html>

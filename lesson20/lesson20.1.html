@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lesson20</title>
+</head>
+
+<body>
+    <h2>Реализация самописными функциями</h2>
+<input type="button" value="ввод информации о стране" onclick="addNewItem()">
+<input type="button" value="получение информации о стране" onclick="getInfoCountry()">
+<input type="button" value="перечень всех стран" onclick="getCountryList()">
+<input type="button" value="удаление информации о стране" onclick="delCountry()">
+
+<h2>Реализация библиотечными функциями</h2>
+<input type="button" value="ввод информации о стране" onclick="biblioAddNewItem()">
+<input type="button" value="получение информации о стране" onclick="biblioGetCountryInfo()">
+<input type="button" value="перечень всех стран" onclick="biblioGetCountryList()">
+<input type="button" value="удаление информации о стране" onclick="biblioDeleteCountry()">
+
+
+
+<script>
+// мои функции
+    var countryList = {"Китай":"Пекин", "Япония":"Токио", "Индия": "Дели"};
+
+
+    function addNewItem () {
+        var strana = prompt("Введите название страны");
+        var gorod = prompt("Введите название столицы");
+        countryList[strana] = gorod;
+        alert("Вы добавили новую страну: "+strana+" со столицей: "+gorod);
+    }
+    
+    function getInfoCountry () {
+        var searchCountry = prompt("Введите название страны на русскомя языке с большой буквы")
+        if (searchCountry in countryList) {
+            alert("В стране "+searchCountry+" столица: "+countryList[searchCountry])
+        }
+        else {
+            alert("Информации о введённой стране не найдено")
+        }
+    }
+
+    function getCountryList() {
+        console.log("МОЯ ФУНКЦИЯ Вот, что мне удалось узнать о странах:");
+        for (var searchKey in countryList) {
+            console.log("В стране "+searchKey+" столица: "+countryList[searchKey]);
+        }
+    }
+
+    function delCountry() {
+        var delCountry = prompt("Введите название страны на русском с большой буквы, которую вы хотите удалить");
+        delete countryList[delCountry];
+
+    }
+</script>
+
+
+<script>
+    // библиотечные функции
+
+    var countrysH={};
+
+    function addCountry(countryName,capitalName) {
+        countrysH[countryName]=capitalName;
+    }
+
+    function deleteCountry(countryName) {
+        delete countrysH[countryName];
+    }
+
+    function getCountryInfo(countryName) {
+        if ( countryName in countrysH )
+            return 'страна: ' + countryName + ' столица: ' + countrysH[countryName] ;
+        else
+            return 'нет информации о стране ' + countryName + '!' ;
+    }
+
+    function listCountrys() {
+        var res="";
+        for ( var CN in countrysH )
+            res+='\n'+getCountryInfo(CN);
+        return res;
+    }
+
+    addCountry('Германия','Берлин');
+    addCountry('Венгрия','Будапешт');
+    addCountry('Франция','Париж');
+
+    function biblioAddNewItem() {
+        var newCountryName = prompt("Введите название новой страны на русском языке с большой буквы");
+        var newCapitalName = prompt ("Введите название города-столицы");
+        addCountry(newCountryName,newCapitalName);
+    }
+
+    function biblioDeleteCountry() {
+        delCounryName = prompt("Введите название страны на русском языке с большой буквы, которую вы хотите УДАЛИТЬ");
+        deleteCountry(delCounryName);
+    }
+
+    function biblioGetCountryInfo() {
+        infoCountryName = prompt("Введите название интересующей вас страны");
+        getCountryInfo(infoCountryName);
+        alert(getCountryInfo(infoCountryName));
+    }
+
+    function biblioGetCountryList () {
+        console.log( "список стран:" + listCountrys());
+    }
+   
+</script>
+</body>
+</html>
