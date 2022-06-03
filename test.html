@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="button" value="добавить страну" onclick="forAddStrana()">
+    <input type="button" value="инфа о стране" onclick="infoStrana()">
+    <input type="button" value="список стран" onclick="vseStrany()">
+    <input type="button" value="удалить страну" onclick="delStrana()">
+
+
+
+    <input type="button" value="влупить по блоку" onclick="vlup()">
+    <script>
+        
+        function vlup() {
+        document.getElementById("box").style.transition="0.5s";
+        document.getElementById("box").style.width="500px"
+        // document.getElementById(box).style.
+    }
+        var spisok = {"germany" : "berlin" , "india" : "deli"}; 
+
+        // добавление страны
+        function forAddStrana () {
+            var newStrana = prompt("Введите название страны");
+            var newStolica = prompt("Введите название столицы");
+            addStrana(newStrana, newStolica);
+        }
+
+        function addStrana(strana, stolica) {
+            spisok[strana] = stolica;
+            alert("добавлена страна "+strana+" со столицей "+stolica);
+        }
+
+        // вывод информации о стране
+        function infoStrana() {
+            var info = prompt("Введите название страны");
+            (info in spisok) ? alert("В стране "+info+" столица - "+spisok[info]) : alert("такой страны нет в списке");
+
+        }
+
+        // вывод списка всех стран
+
+        function vseStrany () {
+            var resultat = "список стран"+'\n';
+            for ( var vse in spisok) 
+            resultat+='\n'+vse+" со столицей "+spisok[vse];
+            alert(resultat);
+        }
+
+        // удалить страну 
+        function delStrana () {
+            var nahStrana = prompt("Введите название страны");
+            delete spisok[nahStrana]
+        }
+
+
+    </script>
+
+</body>
+</html>
