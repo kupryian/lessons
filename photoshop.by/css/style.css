@@ -13,6 +13,15 @@ h2 {
   margin: 0 auto;
   border-top: 0.1px;
   font-family: 'Roboto', sans-serif; }
+  @media (max-width: 1140px) {
+    .contain {
+      width: 900px; } }
+  @media (max-width: 900px) {
+    .contain {
+      width: 600px; } }
+  @media (max-width: 600px) {
+    .contain {
+      width: 320px; } }
 
 .head_top {
   color: #ffffff;
@@ -44,11 +53,16 @@ h2 {
     background-color: rgba(255, 255, 255, 0.2); }
     .head_top .button_location img {
       margin-bottom: 2px; }
+  @media (max-width: 900px) {
+    .head_top {
+      display: none; } }
 
 .head-icon {
   margin-bottom: 4px; }
 
 .head_bottom {
+  position: relative;
+  margin: 0 0;
   color: #ffffff;
   background-color: #000000;
   font-size: 14px; }
@@ -63,7 +77,14 @@ h2 {
     display: flex;
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
-            justify-content: space-between; }
+            justify-content: space-between;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap; }
+    @media (max-width: 900px) {
+      .head_bottom .wrap_head {
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+        margin: 0 24px; } }
   .head_bottom ul {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -73,6 +94,9 @@ h2 {
             justify-content: space-between;
     width: 250px;
     margin-top: 11px; }
+    @media (max-width: 900px) {
+      .head_bottom ul {
+        display: none; } }
   .head_bottom .menu li {
     margin-left: 26px;
     color: #99938A;
@@ -87,12 +111,21 @@ h2 {
     color: #000000;
     margin: 14px 0px 24px 0px;
     font-size: 18px;
-    font-weight: 500; }
+    font-weight: 500;
+    display: block; }
+    @media (max-width: 900px) {
+      .head_bottom .button_menu {
+        display: none; } }
   .head_bottom .logo-header-text {
     font-size: 26px;
     font-weight: 500;
     margin-top: 23px;
     margin-left: -23px; }
+    @media (max-width: 900px) {
+      .head_bottom .logo-header-text {
+        margin-left: 0px;
+        font-weight: 700;
+        margin-top: 10px; } }
   .head_bottom .head_search {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -103,6 +136,7 @@ h2 {
     height: 56px;
     border-radius: 60px;
     margin-top: 8px;
+    margin-bottom: 0px;
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between; }
@@ -111,6 +145,68 @@ h2 {
     .head_bottom .head_search img {
       -ms-flex-item-align: end;
           align-self: flex-end; }
+    @media (max-width: 1140px) {
+      .head_bottom .head_search {
+        width: 295px; } }
+    @media (max-width: 900px) {
+      .head_bottom .head_search {
+        width: 100%; } }
+    @media (max-width: 600px) {
+      .head_bottom .head_search {
+        width: 320px; } }
+    @media (max-width: 900px) {
+      .head_bottom .head_search {
+        margin-bottom: 10px;
+        border-radius: 16px; } }
+
+.head_bottom_mobile {
+  z-index: 10;
+  width: 100%;
+  height: 80px;
+  display: none;
+  background-color: #ffffff;
+  border-top: 1px solid #99938A; }
+  @media (max-width: 900px) {
+    .head_bottom_mobile {
+      display: block;
+      position: absolute;
+      bottom: 0px; } }
+  .head_bottom_mobile ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    margin: 25px 50px; }
+    @media (max-width: 600px) {
+      .head_bottom_mobile ul {
+        margin: 25px 25px; } }
+    .head_bottom_mobile ul li {
+      width: 50px;
+      height: 50px;
+      background-color: black;
+      border-radius: 25px; }
+    .head_bottom_mobile ul li:first-child {
+      background-image: url(/photoshop.by/img/mobile_menu.png);
+      background-position-x: 542px;
+      background-position-y: -19px; }
+    .head_bottom_mobile ul li:nth-child(2) {
+      background-image: url(/photoshop.by/img/mobile_menu.png);
+      background-position-x: 394px;
+      background-position-y: -19px; }
+    .head_bottom_mobile ul li:nth-child(3) {
+      background-image: url(/photoshop.by/img/mobile_menu.png);
+      background-position-x: 244px;
+      background-position-y: -16px; }
+    .head_bottom_mobile ul li:nth-child(4) {
+      background-image: url(/photoshop.by/img/mobile_menu.png);
+      background-position-x: 98px;
+      background-position-y: -19px; }
+    .head_bottom_mobile ul a {
+      display: block;
+      width: 50px;
+      height: 50px; }
 
 .slider {
   margin: 31px 0px; }
@@ -120,7 +216,7 @@ h2 {
     width: 1140px;
     height: 360px;
     border-radius: 10px;
-    background-image: url(/lessons/photoshop.by/img/image61.jpg);
+    background-image: url(../img/image61.jpg);
     padding: 44px 88px; }
     .slider .slider_bg .slider_title {
       font-size: 32px;
