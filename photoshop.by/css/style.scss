@@ -57,8 +57,13 @@ h2 {
     @include w_contain_600($contain_tablet);
     @include w_contain_320($contain_mobile);
 }
-
-
+.mobile_contain {
+    width: $contain_max;
+    margin: 0 auto;
+    border-top: 0.1px;
+    font-family: 'Roboto', sans-serif;
+    @include w_contain_900(100%);
+}
 .head_top {
     @include header_footer;
     ul {
@@ -189,7 +194,7 @@ h2 {
     border-top: 1px solid $four_color;
     @media (max-width: 900px)   {
         display: block;
-        position: absolute;
+        position: fixed;
         bottom: 0px;
     }
     ul {
@@ -236,6 +241,9 @@ h2 {
 }
 .slider {
     margin: 31px 0px;
+    @media (max-width: 900px) {
+        margin: 15px 24px;
+    }
     .slider_bg {
         color: $second_color;
         position: relative;
@@ -244,13 +252,38 @@ h2 {
         border-radius: 10px;
         background-image: url(../img/image61.jpg);
         padding: 44px 88px;
+        @media (max-width: 900px) {
+            height: 260px;
+            padding: 26px 29px;
+            background-size: cover;
+            background-position-x: -136px;
+        }
+        @media (max-width: 600px) {
+            height: 250px;
+            padding: 10px 29px;
+            background-size: cover;
+            background-position-x: -300px;
+        }
         .slider_title {
             font-size: 32px;
             font-weight: 700;
+            @media (max-width: 900px) {
+                font-size: 28px;
+            }
+            @media (max-width: 600px) {
+                font-size: 16px;
+            }
         }
         .slider_description {
             margin: 22px 0px 42px 0px;
             opacity: 0.6;
+            @media (max-width: 900px) {
+                margin: 15px 0px 80px 0px;
+            }
+            @media (max-width: 600px) {
+                margin: 18px 0px 70px 0px;
+            }
+            
         }
         .slider_button {
             color: $three_color;
@@ -275,6 +308,9 @@ h2 {
         margin: 26px auto;
         display: flex;
         justify-content: space-between;
+        @media (max-width: 900px) {
+            display: none;
+        }
         .active_slide_button {
             width: 12px;
             height: 12px;
@@ -290,10 +326,11 @@ h2 {
     }
 }
 .sale_product {
-    margin: 31px 0px;
+    margin: 31px 0px 100px 0px; 
     ul {
         display: flex;
         justify-content: space-between;
+        overflow: auto;
         li{ 
             width: 352px;
             height: 280px;
@@ -301,6 +338,7 @@ h2 {
             background-color: #EFEFEF;
             padding: 24px;
             position: relative;
+            margin: 0px 5px;
             div {
                 display: flex;
                 justify-content: space-between;
@@ -322,11 +360,11 @@ h2 {
                 height: 100px;
                 border-radius: 50px;
                 position: absolute;
-                bottom: 7%;
+                bottom: 20px;
                 left: 60%;
                 display: block;
                 text-align: center;
-                padding-top: 8%;
+                padding-top: 25px;
                 transform: rotate(-15deg);
                 
                 p {
@@ -344,11 +382,11 @@ h2 {
                 height: 100px;
                 border-radius: 50px;
                 position: absolute;
-                bottom: 7%;
+                bottom: 20px;
                 left: 60%;
                 display: block;
                 text-align: center;
-                padding-top: 8%;
+                padding-top: 25px;
                 transform: rotate(-15deg);
                 
                 p {
