@@ -196,19 +196,19 @@ h2 {
       height: 50px;
       border-radius: 25px; }
     .head_bottom_mobile ul li:first-child {
-      background-image: url(/photoshop.by/img/mobile_menu.png);
+      background-image: url(../img/mobile_menu.png);
       background-position-x: 542px;
       background-position-y: -19px; }
     .head_bottom_mobile ul li:nth-child(2) {
-      background-image: url(/photoshop.by/img/mobile_menu.png);
+      background-image: url(../img/mobile_menu.png);
       background-position-x: 394px;
       background-position-y: -19px; }
     .head_bottom_mobile ul li:nth-child(3) {
-      background-image: url(/photoshop.by/img/mobile_menu.png);
+      background-image: url(../img/mobile_menu.png);
       background-position-x: 244px;
       background-position-y: -16px; }
     .head_bottom_mobile ul li:nth-child(4) {
-      background-image: url(/photoshop.by/img/mobile_menu.png);
+      background-image: url(../img/mobile_menu.png);
       background-position-x: 98px;
       background-position-y: -19px; }
     .head_bottom_mobile ul a {
@@ -297,7 +297,7 @@ h2 {
       background-color: #DDDDDD; }
 
 .sale_product {
-  margin: 31px 0px 100px 0px; }
+  margin: 31px 0px 31px 0px; }
   .sale_product ul {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -379,6 +379,9 @@ h2 {
   .sale_hits div {
     width: 228px;
     position: relative; }
+    @media (max-width: 600px) {
+      .sale_hits div {
+        width: 155px; } }
     .sale_hits div img {
       width: 100%;
       position: absolute;
@@ -401,6 +404,10 @@ h2 {
       width: 170px;
       height: 170px;
       margin: 10px auto; }
+      @media (max-width: 900px) {
+        .sale_hits div .sale_hits_img {
+          width: 150px;
+          height: 150px; } }
 
 .sale_hist_viev_more {
   padding: 14px 56px;
