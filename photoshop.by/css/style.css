@@ -30,6 +30,9 @@ h2 {
   font-family: 'Roboto', sans-serif; }
   @media (max-width: 1140px) {
     .mobile_contain {
+      width: 900px; } }
+  @media (max-width: 900px) {
+    .mobile_contain {
       width: 100%; } }
 
 .head_top {
@@ -216,6 +219,72 @@ h2 {
       width: 50px;
       height: 50px; }
 
+.slider_title {
+  font-size: 32px;
+  font-weight: 700; }
+  @media (max-width: 900px) {
+    .slider_title {
+      font-size: 28px; } }
+  @media (max-width: 600px) {
+    .slider_title {
+      font-size: 16px; } }
+
+.slider_description {
+  margin: 22px 0px 42px 0px;
+  opacity: 0.6; }
+  @media (max-width: 900px) {
+    .slider_description {
+      margin: 15px 0px 80px 0px; } }
+  @media (max-width: 600px) {
+    .slider_description {
+      margin: 18px 0px 70px 0px; } }
+
+.slider_button {
+  color: #FADE4B;
+  padding: 14px 52px;
+  border-radius: 28px;
+  border: solid 2px;
+  display: inline-block; }
+
+@media (max-width: 900px) {
+  .carousel {
+    margin: 0px 24px; } }
+
+.carousel-inner {
+  border-radius: 10px; }
+
+.carousel-item {
+  height: 360px;
+  background-color: red; }
+  @media (max-width: 900px) {
+    .carousel-item {
+      background-color: red;
+      height: 300px; } }
+
+@media (max-width: 900px) {
+  .carousel-caption {
+    position: relative;
+    right: 0px;
+    bottom: 0;
+    left: 0;
+    padding: 36px 25px;
+    text-align: left; } }
+
+.carousel-control-next, .carousel-control-prev {
+  width: 10%; }
+
+.carousel-indicators {
+  bottom: -45px; }
+
+.carousel-indicators [data-bs-target] {
+  background-color: #A5A5A5;
+  height: 12px;
+  width: 12px;
+  border-radius: 6px;
+  border-top: none;
+  border-bottom: none;
+  margin-right: 10px; }
+
 .slider {
   margin: 31px 0px; }
   @media (max-width: 900px) {
@@ -297,7 +366,7 @@ h2 {
       background-color: #DDDDDD; }
 
 .sale_product {
-  margin: 31px 0px 31px 0px; }
+  margin: 62px 0px 31px 0px; }
   .sale_product ul {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -360,13 +429,26 @@ h2 {
         text-align: center;
         padding-top: 25px;
         -webkit-transform: rotate(-15deg);
-                transform: rotate(-15deg); }
+                transform: rotate(-15deg);
+        -webkit-animation: beat 1s infinite alternate;
+                animation: beat 1s infinite alternate;
+        -webkit-transform-origin: center;
+                transform-origin: center; }
         .sale_product ul li .sale_medal_25 p {
           width: 100%;
           margin-bottom: 4px; }
         .sale_product ul li .sale_medal_25 span {
           font-size: 26px; }
 
+@-webkit-keyframes beat {
+  to {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1); } }
+
+@keyframes beat {
+  to {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1); } }
 .sale_hits {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -387,10 +469,14 @@ h2 {
       position: absolute;
       top: 0;
       bottom: 0;
-      margin: auto 0; }
+      margin: auto 0;
+      -webkit-transition: 0.5s;
+      transition: 0.5s;
+      -webkit-transform: scale(1);
+              transform: scale(1); }
     .sale_hits div p {
       color: #99938A;
-      margin: 5px 0px; }
+      margin: 5px 10px; }
     .sale_hits div .price_cart {
       display: inline;
       font-size: 18px;
@@ -408,6 +494,19 @@ h2 {
         .sale_hits div .sale_hits_img {
           width: 150px;
           height: 150px; } }
+  .sale_hits > div:hover {
+    -webkit-box-shadow: 0 0 10px 5px #dddddd;
+            box-shadow: 0 0 10px 5px #dddddd; }
+    .sale_hits > div:hover img {
+      width: 100%;
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      margin: auto 0;
+      -webkit-transition: 0.5s;
+      transition: 0.5s;
+      -webkit-transform: scale(1.1);
+              transform: scale(1.1); }
 
 .sale_hist_viev_more {
   padding: 14px 56px;
@@ -434,9 +533,18 @@ div.vendor_slider {
   margin: 31px 0px;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
-          justify-content: space-between; }
+          justify-content: space-between;
+  overflow-x: auto; }
   .obzory div {
     width: 348px; }
+    @media (max-width: 1140px) {
+      .obzory div {
+        width: 295px; } }
+    @media (max-width: 600px) {
+      .obzory div {
+        margin-right: 10px; } }
+    .obzory div img {
+      width: 100%; }
     .obzory div p {
       margin: 15px 8px;
       text-align: center; }

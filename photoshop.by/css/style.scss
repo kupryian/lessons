@@ -62,7 +62,8 @@ h2 {
     margin: 0 auto;
     border-top: 0.1px;
     font-family: 'Roboto', sans-serif;
-    @include w_contain_900(100%);
+    @include w_contain_900($contain_small_desktop);
+    @include w_contain_600(100%);
 }
 .head_top {
     @include header_footer;
@@ -238,6 +239,78 @@ h2 {
     }
 
 }
+// вставка в бутстрап слайдер
+.slider_title {
+    font-size: 32px;
+    font-weight: 700;
+    @media (max-width: 900px) {
+        font-size: 28px;
+    }
+    @media (max-width: 600px) {
+        font-size: 16px;
+    }
+}
+.slider_description {
+    margin: 22px 0px 42px 0px;
+    opacity: 0.6;
+    @media (max-width: 900px) {
+        margin: 15px 0px 80px 0px;
+    }
+    @media (max-width: 600px) {
+        margin: 18px 0px 70px 0px;
+    }
+    
+}
+.slider_button {
+    color: $three_color;
+    padding: 14px 52px;
+    border-radius: 28px;
+    border: solid 2px;
+    display: inline-block;
+}
+.carousel {
+    @media (max-width: 900px) { 
+    margin: 0px 24px;
+    }
+}
+.carousel-inner {
+    border-radius: 10px;
+}
+.carousel-item {
+    height: 360px;
+    background-color: red;
+    @media (max-width: 900px) { 
+    background-color: red;
+    height: 300px;
+    }
+}
+.carousel-caption {
+    @media (max-width: 900px) {
+    position: relative;
+    right: 0px;
+    bottom: 0;
+    left: 0;
+    padding: 36px 25px;
+    text-align: left;
+    }
+}
+.carousel-control-next, .carousel-control-prev {
+    width: 10%;
+}
+.carousel-indicators {
+bottom: -45px;
+}
+.carousel-indicators [data-bs-target] {
+    background-color: #A5A5A5;
+    height: 12px;
+    width: 12px;
+    border-radius: 6px;
+    border-top: none;
+    border-bottom: none;
+    margin-right: 10px;
+}
+// конец вставки в слайдер бутстрап
+
 .slider {
     margin: 31px 0px;
     @media (max-width: 900px) {
@@ -325,7 +398,7 @@ h2 {
     }
 }
 .sale_product {
-    margin: 31px 0px 31px 0px; 
+    margin: 62px 0px 31px 0px; 
     ul {
         display: flex;
         justify-content: space-between;
@@ -387,7 +460,9 @@ h2 {
                 text-align: center;
                 padding-top: 25px;
                 transform: rotate(-15deg);
-                
+                // анимация
+                animation: beat 1s infinite alternate;
+                transform-origin: center;
                 p {
                     width: 100%;
                     margin-bottom: 4px;
@@ -398,6 +473,10 @@ h2 {
             }
         }
     } 
+}
+// ключ для анимации
+@keyframes beat{
+	to { transform: scale(1.1); }
 }
 .sale_hits {
     display: flex;
@@ -415,10 +494,12 @@ h2 {
             top: 0;
             bottom: 0;
             margin: auto 0;
+            transition: 0.5s;
+            transform: scale(1);
         }
         p {
             color: $four_color;
-            margin: 5px 0px;
+            margin: 5px 10px;
          }
          .price_cart {
             display: inline;
@@ -441,6 +522,18 @@ h2 {
             }
         }   
     }
+    > div:hover {
+        box-shadow: 0 0 10px 5px rgba(221, 221, 221, 1);
+        img {
+            width: 100%;
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            margin: auto 0;
+            transition: 0.5s;
+            transform: scale(1.1);
+        }
+    }
 }
 .sale_hist_viev_more {
     padding: 14px 56px;
@@ -457,12 +550,23 @@ div.vendor_slider {
         justify-content: space-between;
     }
 }
+// слайдер брендов начало
+
+// конец слайдера брендов
 .obzory {
     display: flex;
     margin: 31px 0px;
     justify-content: space-between;
+    overflow-x: auto;
     div {
         width: 348px;
+        @include w_contain_900(295px);
+        @media (max-width: 600px) {
+            margin-right: 10px;
+        }
+        img {
+            width: 100%;
+        }
         p {
             margin: 15px 8px;
             text-align: center;
