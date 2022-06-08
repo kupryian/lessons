@@ -35,4 +35,5 @@ for(var i=0;i<cards.length;i++) {
 
 hitSale.innerHTML = htmlCards;
 
+var menuOpen 
 
