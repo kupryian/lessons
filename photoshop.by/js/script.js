@@ -32,8 +32,25 @@ for(var i=0;i<cards.length;i++) {
                 </div>
     `
 }
-
 hitSale.innerHTML = htmlCards;
 
-var menuOpen 
+function menuOpen() {
+    document.querySelector(".menu_drop").style.backgroundColor="#00000082";
+    document.querySelector(".menu_drop").style.zIndex="20";
+    document.querySelector(".menu_drop").style.transition="0.5s";
+    document.querySelector(".menu_area").style.left="0";
+    document.querySelector(".menu_area").style.transition="0.7s";
+    document.querySelector(".head_bottom_mobile ul li:nth-child(2)").style.display="none";
+    document.querySelector(".head_bottom_mobile ul li:nth-child(3)").style.display="block";
+}
+function menuClose() {
+    document.querySelector(".menu_drop").style.backgroundColor="#00000000";
+    document.querySelector(".menu_drop").style.zIndex="-1";
+    document.querySelector(".menu_drop").style.transition="0.5s";
+    document.querySelector(".menu_area").style.left="-1000px";
+    document.querySelector(".menu_area").style.transition="0.7s";
+    document.querySelector(".head_bottom_mobile ul li:nth-child(2)").style.display="block";
+    document.querySelector(".head_bottom_mobile ul li:nth-child(3)").style.display="none";
+}
+
 
