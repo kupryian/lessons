@@ -123,6 +123,7 @@ h2 {
     }
         }
         li {   
+            text-align: center;
     }
     .menu {
         li {
@@ -523,7 +524,8 @@ bottom: -45px;
         }   
     }
     > div:hover {
-        box-shadow: 0 0 10px 5px rgba(221, 221, 221, 1);
+        box-shadow: 0px 4px 8px 8px #F4F4F4;
+        border-radius: 20px;
         transition: 0.5s;
         img {
             width: 100%;
@@ -611,12 +613,29 @@ div.vendor_slider {
 .footer_top {
     @include header_footer;
     .footer_ul {
-        margin: 31px 0px 0px 0px;
+        margin: 31px 0px 50px 0px;
         display: flex; 
         justify-content: space-between;
         font-size: $second_p_size;
         line-height: 28px;
         padding: 30px 0px;
+        > li:first-child {
+            display: block;
+            @media (max-width: 600px) {
+                display: none;
+            }
+        }
+        > li:nth-child(2) {
+            display: block;
+            @media (max-width: 600px) {
+                display: none;
+            }
+        }
+        > li:nth-child(3) {
+            display: block;
+            @media (max-width: 600px) {
+                display: none;
+            }
+        }
         }
     }
-
