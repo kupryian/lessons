@@ -55,6 +55,10 @@ h6 {
     font-size: 16px;
     font-weight: 600;
 }
+a {
+    color: $four_color;
+    text-decoration: none;
+}
 @mixin header_footer () {
     color: $second_color;
     background-color: $first_color;
@@ -153,12 +157,14 @@ h6 {
             left: 309px;
             top: 0;
             z-index: 30; 
-            padding: 24px 0px 24px 18px;
+            padding: 24px 0px 80px 18px;
             display: none;
             height: 100%;
             overflow-y: auto;
             @media (max-width: 900px){
-                left: 10px;
+                left: -1000px;
+                transition: 1s;
+                display: block;
             }
             ul {
                 margin-bottom: 35px;
@@ -204,6 +210,11 @@ h6 {
     }
     > li:hover div {
         display: block;
+        @media (max-width: 900px){
+            left: 10px;
+            transition: 1s;
+        }
+
     }
 }   
 .head_top {

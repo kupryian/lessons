@@ -25,6 +25,10 @@ h6 {
   font-size: 16px;
   font-weight: 600; }
 
+a {
+  color: #99938A;
+  text-decoration: none; }
+
 .wrap {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -137,13 +141,16 @@ h6 {
       left: 309px;
       top: 0;
       z-index: 30;
-      padding: 24px 0px 24px 18px;
+      padding: 24px 0px 80px 18px;
       display: none;
       height: 100%;
       overflow-y: auto; }
       @media (max-width: 900px) {
         .menu_area > li div {
-          left: 10px; } }
+          left: -1000px;
+          -webkit-transition: 1s;
+          transition: 1s;
+          display: block; } }
       .menu_area > li div ul {
         margin-bottom: 35px; }
         .menu_area > li div ul li {
@@ -178,6 +185,11 @@ h6 {
         transition: 0.4s; } }
   .menu_area > li:hover div {
     display: block; }
+    @media (max-width: 900px) {
+      .menu_area > li:hover div {
+        left: 10px;
+        -webkit-transition: 1s;
+        transition: 1s; } }
 
 .head_top {
   color: #ffffff;
