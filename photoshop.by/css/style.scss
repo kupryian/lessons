@@ -51,6 +51,10 @@ h2 {
     font-weight: 500;
     color: $first_color;
 }
+h6 {
+    font-size: 16px;
+    font-weight: 600;
+}
 @mixin header_footer () {
     color: $second_color;
     background-color: $first_color;
@@ -805,5 +809,113 @@ div.vendor_slider {
         }
         @media (max-width: 900px) {
         margin: 31px 0px 50px 0px;
+        }
+    }
+
+
+    // Начало карточки товара
+    .breadcrumb {
+        margin: 30px 0px;
+        @media (max-width: 900px) {
+            font-size:14px;
+            } 
+    }
+    .articul {
+        display: flex;
+        margin: 30px 0px;
+    }
+    .photo_galery {
+        display: flex;
+        margin: 30px 0px 30px 0px;
+
+    }
+    .pre_photo {
+        display: flex;
+        width: 90px;
+        height: 90px;
+        flex-direction: column;
+        img {
+            // width: 80px;
+            // height: 80px;
+            padding: 10px;
+            border:0px
+        }
+        img:hover {
+            border: 1px solid black;
+        }
+    }
+    .big_photo {
+        padding: 0px 30px;
+        width: 530px;
+        height: 400px;
+        overflow: hidden;
+        img {
+           width: 100%;
+           display: none;
+        }
+        img:first-child {
+            display: inline;
+        }
+    }
+    #nav-tabContent {
+        margin-right: 20px;
+    }
+    #list-tab {
+        flex-direction: row;
+        color: black;
+        border: 0px;
+        margin: 10px auto;
+    }
+    .list-group-item {
+        border: 0px;
+        color: black;
+        text-align: center;
+    }
+    .list-group-item.active {
+        background-color: #EFEFEF;
+        color: black;
+        text-align: center;
+    }
+    .list-group-item:first-child {
+        border-radius: 0px;
+    }
+    .list-group-item:last-child {
+        border-radius: 0px;
+    }
+    #list-home {
+        h6 {
+            padding-top: 10px;
+        }
+        ul {
+            display: flex;
+            flex-direction: column;
+            li {
+                padding-bottom: 10px;
+                ul {
+                    display: flex;
+                    flex-direction: row;
+                    li:first-child {
+                        margin-right: 20px;
+                        @media (max-width: 900px) {
+                            margin-right: 50px;
+                            } 
+                    }
+                }
+            }
+        }
+    }
+    #list-profile {
+        h6 {
+            padding-top: 10px;
+        }
+    }
+    #list-messages {
+        h6 {
+                padding-top: 10px;
+        }
+    }
+    .recomendet {
+        h2 {
+            margin: 30px 0px;
         }
     }
