@@ -21,10 +21,6 @@ h2 {
   font-weight: 500;
   color: #000000; }
 
-h6 {
-  font-size: 16px;
-  font-weight: 600; }
-
 .wrap {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -836,7 +832,7 @@ div.vendor_slider {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin: 30px 0px 30px 0px; }
+  margin: 30px 0px 200px 0px; }
 
 .pre_photo {
   display: -webkit-box;
@@ -857,75 +853,11 @@ div.vendor_slider {
 .big_photo {
   padding: 0px 30px;
   width: 530px;
-  height: 400px;
-  overflow: hidden; }
+  height: 530px; }
   .big_photo img {
     width: 100%;
     display: none; }
   .big_photo img:first-child {
     display: inline; }
-
-#nav-tabContent {
-  margin-right: 20px; }
-
-#list-tab {
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  color: black;
-  border: 0px;
-  margin: 10px auto; }
-
-.list-group-item {
-  border: 0px;
-  color: black;
-  text-align: center; }
-
-.list-group-item.active {
-  background-color: #EFEFEF;
-  color: black;
-  text-align: center; }
-
-.list-group-item:first-child {
-  border-radius: 0px; }
-
-.list-group-item:last-child {
-  border-radius: 0px; }
-
-#list-home h6 {
-  padding-top: 10px; }
-#list-home ul {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column; }
-  #list-home ul li {
-    padding-bottom: 10px; }
-    #list-home ul li ul {
-      display: -webkit-box;
-      display: -ms-flexbox;
-      display: flex;
-      -webkit-box-orient: horizontal;
-      -webkit-box-direction: normal;
-          -ms-flex-direction: row;
-              flex-direction: row; }
-      #list-home ul li ul li:first-child {
-        margin-right: 20px; }
-        @media (max-width: 900px) {
-          #list-home ul li ul li:first-child {
-            margin-right: 50px; } }
-
-#list-profile h6 {
-  padding-top: 10px; }
-
-#list-messages h6 {
-  padding-top: 10px; }
-
-.recomendet h2 {
-  margin: 30px 0px; }
 
 /*# sourceMappingURL=style.css.map */
