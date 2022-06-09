@@ -6,64 +6,64 @@ var headerIn =`<div class="menu_drop" onclick="menuClose()">
             <div>
             <ul>
                 <li>Зеркальные фотоаппараты</li>
-                <li><a href="/photoshop.by/card1.html">44х33 мм</a></li>
-                <li><a href="/photoshop.by/card1.html">30х45 мм</a></li>
-                <li><a href="/photoshop.by/card1.html">35 мм (Full frame)</a></li>
-                <li><a href="/photoshop.by/card1.html">APS-C</a></li>
-                <li><a href="/photoshop.by/card1.html">Все категории</a></li>
+                <li><a href="/lessons/photoshop.by/card1.html">44х33 мм</a></li>
+                <li><a href="/lessons/photoshop.by/card1.html">30х45 мм</a></li>
+                <li><a href="/lessons/photoshop.by/card1.html">35 мм (Full frame)</a></li>
+                <li><a href="/lessons/photoshop.by/card1.html">APS-C</a></li>
+                <li><a href="/lessons/photoshop.by/card1.html">Все категории</a></li>
             </ul>
             <ul>
                 <li>Беззеркальные камеры</li>
-                <li><a href="/photoshop.by/card1.html">23.6х15.7 мм</a></li>
-                <li><a href="/photoshop.by/card1.html">24х36 мм</a></li>
-                <li><a href="/photoshop.by/card1.html">35 мм (Full frame)</a></li>
-                <li><a href="/photoshop.by/card1.html">3/4 мм</a></li>
-                <li><a href="/photoshop.by/card1.html">APS-C</a></li>
-                <li><a href="/photoshop.by/card1.html">Все категории</a></li>
+                <li><a href="/lessons/photoshop.by/card1.html">23.6х15.7 мм</a></li>
+                <li><a href="/lessons/photoshop.by/card1.html">24х36 мм</a></li>
+                <li><a href="/lessons/photoshop.by/card1.html">35 мм (Full frame)</a></li>
+                <li><a href="/lessons/photoshop.by/card1.html">3/4 мм</a></li>
+                <li><a href="/lessons/photoshop.by/card1.html">APS-C</a></li>
+                <li><a href="/lessons/photoshop.by/card1.html">Все категории</a></li>
             </ul>
             <ul>
                 <li>Компактные фотокамеры</li>
-                <li><a href="/photoshop.by/card1.html">1/1</a></li>
-                <li><a href="/photoshop.by/card1.html">1/1.7</a></li>
-                <li><a href="/photoshop.by/card1.html">1/2.3</a></li>
-                <li><a href="/photoshop.by/card1.html">35 мм (Full frame)</a></li>
-                <li><a href="/photoshop.by/card1.html">4/3</a></li>
-                <li><a href="/photoshop.by/card1.html">APS-C</a></li>
-                <li><a href="/photoshop.by/card1.html">MOS</a></li>
-                <li><a href="/photoshop.by/card1.html">Все категории</a></li>
+                <li><a href="/lessons/photoshop.by/card1.html">1/1</a></li>
+                <li><a href="/lessons/photoshop.by/card1.html">1/1.7</a></li>
+                <li><a href="/lessons/photoshop.by/card1.html">1/2.3</a></li>
+                <li><a href="/lessons/photoshop.by/card1.html">35 мм (Full frame)</a></li>
+                <li><a href="/lessons/photoshop.by/card1.html">4/3</a></li>
+                <li><a href="/lessons/photoshop.by/card1.html">APS-C</a></li>
+                <li><a href="/lessons/photoshop.by/card1.html">MOS</a></li>
+                <li><a href="/lessons/photoshop.by/card1.html">Все категории</a></li>
             </ul>
             <ul>
                 <li>Компактные фотокамеры</li>
-                <li><a href="/photoshop.by/card1.html">1/1</a></li>
-                <li><a href="/photoshop.by/card1.html">1/1.7</a></li>
-                <li><a href="/photoshop.by/card1.html">1/2.3</a></li>
-                <li><a href="/photoshop.by/card1.html">35 мм (Full frame)</a></li>
-                <li><a href="/photoshop.by/card1.html">4/3</a></li>
-                <li><a href="/photoshop.by/card1.html">APS-C</a></li>
-                <li><a href="/photoshop.by/card1.html">MOS</a></li>
-                <li><a href="/photoshop.by/card1.html">Все категории</a></li>
+                <li><a href="/lessons/photoshop.by/card1.html">1/1</a></li>
+                <li><a href="/lessons/photoshop.by/card1.html">1/1.7</a></li>
+                <li><a href="/lessons/photoshop.by/card1.html">1/2.3</a></li>
+                <li><a href="/lessons/photoshop.by/card1.html">35 мм (Full frame)</a></li>
+                <li><a href="/lessons/photoshop.by/card1.html">4/3</a></li>
+                <li><a href="/lessons/photoshop.by/card1.html">APS-C</a></li>
+                <li><a href="/lessons/photoshop.by/card1.html">MOS</a></li>
+                <li><a href="/lessons/photoshop.by/card1.html">Все категории</a></li>
             </ul>
             <ul>
                 <li>Компактные фотокамеры</li>
-                <li><a href="/photoshop.by/card1.html">1/1</a></li>
-                <li><a href="/photoshop.by/card1.html">1/1.7</a></li>
-                <li><a href="/photoshop.by/card1.html">1/2.3</a></li>
-                <li><a href="/photoshop.by/card1.html">35 мм (Full frame)</a></li>
-                <li><a href="/photoshop.by/card1.html">4/3</a></li>
-                <li><a href="/photoshop.by/card1.html">APS-C</a></li>
-                <li><a href="/photoshop.by/card1.html">MOS</a></li>
-                <li><a href="/photoshop.by/card1.html">Все категории</a></li>
+                <li><a href="/lessons/photoshop.by/card1.html">1/1</a></li>
+                <li><a href="/lessons/photoshop.by/card1.html">1/1.7</a></li>
+                <li><a href="/lessons/photoshop.by/card1.html">1/2.3</a></li>
+                <li><a href="/lessons/photoshop.by/card1.html">35 мм (Full frame)</a></li>
+                <li><a href="/lessons/photoshop.by/card1.html">4/3</a></li>
+                <li><a href="/lessons/photoshop.by/card1.html">APS-C</a></li>
+                <li><a href="/lessons/photoshop.by/card1.html">MOS</a></li>
+                <li><a href="/lessons/photoshop.by/card1.html">Все категории</a></li>
             </ul>
             <ul>
                 <li>Компактные фотокамеры</li>
-                <li><a href="/photoshop.by/card1.html">1/1</a></li>
-                <li><a href="/photoshop.by/card1.html">1/1.7</a></li>
-                <li><a href="/photoshop.by/card1.html">1/2.3</a></li>
-                <li><a href="/photoshop.by/card1.html">35 мм (Full frame)</a></li>
-                <li><a href="/photoshop.by/card1.html">4/3</a></li>
-                <li><a href="/photoshop.by/card1.html">APS-C</a></li>
-                <li><a href="/photoshop.by/card1.html">MOS</a></li>
-                <li><a href="/photoshop.by/card1.html">Все категории</a></li>
+                <li><a href="/lessons/photoshop.by/card1.html">1/1</a></li>
+                <li><a href="/lessons/photoshop.by/card1.html">1/1.7</a></li>
+                <li><a href="/lessons/photoshop.by/card1.html">1/2.3</a></li>
+                <li><a href="/lessons/photoshop.by/card1.html">35 мм (Full frame)</a></li>
+                <li><a href="/lessons/photoshop.by/card1.html">4/3</a></li>
+                <li><a href="/lessons/photoshop.by/card1.html">APS-C</a></li>
+                <li><a href="/lessons/photoshop.by/card1.html">MOS</a></li>
+                <li><a href="/lessons/photoshop.by/card1.html">Все категории</a></li>
             </ul>
         </div>
         </li>
