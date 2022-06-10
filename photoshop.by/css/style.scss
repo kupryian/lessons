@@ -59,6 +59,9 @@ a {
     color: $four_color;
     text-decoration: none;
 }
+a:hover {
+    color: #5b5752;
+}
 @mixin header_footer () {
     color: $second_color;
     background-color: $first_color;
@@ -724,6 +727,12 @@ bottom: -45px;
     margin: 32px auto;
     font-weight: 600;
 }
+.sale_hist_viev_more:hover {
+    background-color: $three_color;
+    box-shadow: 0px 15px 20px rgba(250, 222, 75, 0.4);
+    color: $first_color;
+    transform: translateY(-7px);
+}
 div.vendor_slider {
     margin: 31px 0px;
     ul {
@@ -834,20 +843,52 @@ div.vendor_slider {
     .articul {
         display: flex;
         margin: 30px 0px;
+        flex-direction: row;
+        @media (max-width: 900px) {
+            align-items: flex-start;
+            flex-direction: column;
+            }
+        ul {
+            display: flex;
+            flex-direction: row-reverse;
+            margin: 0px 5px;
+            @media (max-width: 900px) {
+                margin: 0px 0px;
+                }
+            li {
+                width: 16px;
+                height: 16px;
+                background-image: url(../img/star0.png);
+                margin: 0px 2px;
+            }
+            li:hover {
+                background-image: url(../img/star1.png); 
+            }
+            li:hover ~ li {
+                background-image: url(../img/star1.png);
+            }
+        }
     }
     .photo_galery {
         display: flex;
         margin: 30px 0px 30px 0px;
-
+        flex-wrap: nowrap;
+        @media (max-width: 900px) {
+            flex-wrap: wrap;
+            } 
+        
     }
     .pre_photo {
         display: flex;
         width: 90px;
         height: 90px;
         flex-direction: column;
+        @media (max-width: 600px) {
+            flex-direction: row;
+            width: 60px;
+            height: 60px;
+            } 
         img {
-            // width: 80px;
-            // height: 80px;
             padding: 10px;
             border:0px
         }
@@ -860,6 +901,12 @@ div.vendor_slider {
         width: 530px;
         height: 400px;
         overflow: hidden;
+        @media (max-width: 1140px) {
+            width: 480px;
+            } 
+        @media (max-width: 600px) {
+            height: auto;
+            } 
         img {
            width: 100%;
            display: none;
@@ -868,6 +915,57 @@ div.vendor_slider {
             display: inline;
         }
     }
+    .prise_card {
+        margin-left: 200px;
+        @media (max-width: 1140px) {
+            margin-left: 10px;
+            } 
+        > ul {
+            display: flex;
+            flex-direction: column;
+            > li {
+                margin-bottom: 20px;
+                ul {
+                    display: flex;
+                    flex-direction: row;
+                    li:nth-child(2) {
+                        color: $four_color;
+                        margin: 0px 5px;
+                        text-decoration: line-through;
+                    }
+                    li:nth-child(3) {
+                        color: $five_color;
+                        margin: 0px 5px;
+                        font-weight: 600;
+                    }
+                }
+            }
+        }
+    }
+    .add_cart {
+        width:300px;
+        height: 50px;
+        font-family: 'Roboto', sans-serif;
+        text-transform: uppercase;
+        letter-spacing: 2.5px;
+        font-weight: 500;
+        color: $second_color;
+        background-color: $five_color;
+        border: none;
+        border-radius: 8px;
+        box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+        transition: all 0.3s ease 0s;
+        cursor: pointer;
+        outline: none;
+        }
+      
+      .add_cart:hover {
+        background-color: $three_color;
+        box-shadow: 0px 15px 20px rgba(250, 222, 75, 0.4);
+        color: $first_color;
+        transform: translateY(-7px);
+      }
+
     #nav-tabContent {
         margin-right: 20px;
     }
@@ -876,6 +974,10 @@ div.vendor_slider {
         color: black;
         border: 0px;
         margin: 10px auto;
+        @media (max-width: 900px) {
+            flex-direction: column;
+            }
+
     }
     .list-group-item {
         border: 0px;
