@@ -60,4 +60,4 @@ var cards = [
     title: "Объектив Fujifilm XF 80mm f/2.8 R LM OIS WR Macro"
 }
 ];
-console.log("bigrendercard ok")
+console.log("rendercard ok")

@@ -343,27 +343,39 @@ a:hover {
         display: flex;
         padding: 20px 20px;
         background-color: rgba(255,255,255, 0.25);
-        width: 459px;
+        width: 100%;
         height: 56px;
         border-radius: 60px;
         margin-top: 8px;
         margin-bottom: 0px;
         justify-content: space-between;
+        border: 0px;
         p {
             opacity: 0.6;
         }
         img {
             align-self:flex-end;
         }
-    @include w_contain_900(295px);
-    @include w_contain_600(100%);
-    @include w_contain_320(100%);
         @media (max-width: 900px)   {
             margin-bottom: 10px;
             border-radius: 16px;
         }
     }
 }
+.input_head_search {
+    width: 459px;
+    @include w_contain_900(295px);
+    @include w_contain_600(100%);
+    @include w_contain_320(100%);
+    .search_btn {
+        position: absolute;
+        background-color: transparent;
+        right: 20px;
+        top: 26px;
+        border: 0;
+    }
+}
+
 .head_bottom_mobile {
     z-index: 40;
     width: 100%;
@@ -1032,4 +1044,8 @@ div.vendor_slider {
         h2 {
             margin: 30px 0px;
         }
+    }
+.recomendet {
+        flex-wrap: nowrap;
+        overflow: auto;
     }

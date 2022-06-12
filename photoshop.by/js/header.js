@@ -275,7 +275,10 @@ var headerIn =`<div class="menu_drop" onclick="menuClose()">
         <div class="wrap_head">
         <div class="head_bottom button_menu" onclick="menuOpen()"><div><img src="img/Line17.png" alt=""><img src="img/Line17.png" alt=""><img src="img/Line17.png" alt=""></div> Категории</div>
         <div class="head_bottom logo-header-text">Photomarket</div>
-        <div class="head_bottom head_search"><p>Я ищу..</p><img src="img/search.png" alt=""></div>
+        <div style="position: relative" class="input_head_search">
+  <input type="text" class="head_bottom head_search" placeholder="Я ищу.." aria-label="Имя пользователя получателя" aria-describedby="button-addon2">
+  <button class="search_btn" type="button" id=""><img src="img/search.png" alt=""></button>
+</div>
         <ul class="">
             <li><img class="head-icon" src="img/map pin.png" alt=""><p>Адрес</p></li>
             <li><img class="head-icon" src="img/user.png" alt=""><p>Войти</p></li>
