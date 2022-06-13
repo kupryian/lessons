@@ -291,7 +291,7 @@ var headerIn =`<div class="menu_drop" onclick="menuClose()">
     <div class="head_bottom_mobile">
         <div class="contain">
             <ul>
-                <li><a href="#"></a></li>
+                <li><a href="index.html"></a></li>
                 <li onclick="menuOpen()"><a href="#"></a></li>
                 <li onclick="menuClose()"><a href="#"></a></li>
                 <li><a href="#"></a></li>
