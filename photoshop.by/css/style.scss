@@ -673,6 +673,72 @@ bottom: -45px;
                     }
                 }
             }
+            a:visited {
+                div {
+                    display: flex;
+                    justify-content: space-between;
+                    p {
+                        width: 133px;
+                        color: $first_color;
+                    }
+                    span {
+                        font-size: 24px;
+                        font-weight: 700;
+                        color: $first_color;
+                    }
+                }
+                img {
+                    margin: 10px auto 0px auto;
+                    display: block;
+                }
+                .sale_medal_10 {
+                    background-color: $three_color;
+                    width: 100px;
+                    height: 100px;
+                    border-radius: 50px;
+                    position: absolute;
+                    bottom: 20px;
+                    left: 60%;
+                    display: block;
+                    text-align: center;
+                    padding-top: 25px;
+                    transform: rotate(-15deg);
+                    
+                    p {
+                        width: 100%;
+                        margin-bottom: 4px;
+                    }
+                    span {
+                        font-size: 26px;
+                    }
+                }
+                .sale_medal_25 {
+                    background-color: $five_color;
+                    color: $second_color;
+                    width: 100px;
+                    height: 100px;
+                    border-radius: 50px;
+                    position: absolute;
+                    bottom: 20px;
+                    left: 60%;
+                    display: block;
+                    text-align: center;
+                    padding-top: 25px;
+                    transform: rotate(-15deg);
+                    // анимация
+                    animation: beat 1s infinite alternate;
+                    transform-origin: center;
+                    p {
+                        width: 100%;
+                        margin-bottom: 4px;
+                        color: $second_color
+                    }
+                    span {
+                        font-size: 26px;
+                        color: $second_color
+                    }
+                }
+            }
         }
     } 
 }

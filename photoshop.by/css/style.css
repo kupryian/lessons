@@ -654,6 +654,66 @@ a:hover {
         .sale_product ul li a .sale_medal_25 span {
           font-size: 26px;
           color: #ffffff; }
+      .sale_product ul li a:visited div {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between; }
+        .sale_product ul li a:visited div p {
+          width: 133px;
+          color: #000000; }
+        .sale_product ul li a:visited div span {
+          font-size: 24px;
+          font-weight: 700;
+          color: #000000; }
+      .sale_product ul li a:visited img {
+        margin: 10px auto 0px auto;
+        display: block; }
+      .sale_product ul li a:visited .sale_medal_10 {
+        background-color: #FADE4B;
+        width: 100px;
+        height: 100px;
+        border-radius: 50px;
+        position: absolute;
+        bottom: 20px;
+        left: 60%;
+        display: block;
+        text-align: center;
+        padding-top: 25px;
+        -webkit-transform: rotate(-15deg);
+                transform: rotate(-15deg); }
+        .sale_product ul li a:visited .sale_medal_10 p {
+          width: 100%;
+          margin-bottom: 4px; }
+        .sale_product ul li a:visited .sale_medal_10 span {
+          font-size: 26px; }
+      .sale_product ul li a:visited .sale_medal_25 {
+        background-color: #FB000F;
+        color: #ffffff;
+        width: 100px;
+        height: 100px;
+        border-radius: 50px;
+        position: absolute;
+        bottom: 20px;
+        left: 60%;
+        display: block;
+        text-align: center;
+        padding-top: 25px;
+        -webkit-transform: rotate(-15deg);
+                transform: rotate(-15deg);
+        -webkit-animation: beat 1s infinite alternate;
+                animation: beat 1s infinite alternate;
+        -webkit-transform-origin: center;
+                transform-origin: center; }
+        .sale_product ul li a:visited .sale_medal_25 p {
+          width: 100%;
+          margin-bottom: 4px;
+          color: #ffffff; }
+        .sale_product ul li a:visited .sale_medal_25 span {
+          font-size: 26px;
+          color: #ffffff; }
 
 @-webkit-keyframes beat {
   to {
