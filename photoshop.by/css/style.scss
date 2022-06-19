@@ -362,6 +362,12 @@ a:hover {
         }
     }
 }
+.head_icon {
+    a {
+        color: $second_color;
+    }
+    
+}
 .input_head_search {
     width: 459px;
     @include w_contain_900(295px);
@@ -1121,3 +1127,108 @@ div.vendor_slider {
         flex-wrap: nowrap;
         overflow: auto;
     }
+
+// конец карточки товара
+
+
+// начало корзины
+
+#cart_id {
+    background-color: #F7F7FA;
+    padding: 24px;
+    border-radius: 8px;
+}
+.breadcrumb-item+.active {
+    color: black;
+}
+#list-cart {
+    flex-direction: row;
+    margin: 20px 0px;
+
+    #list-home-cart.active {
+            background-color: #ffffff;
+            border: 1px solid black;
+            color: black;
+            text-align: center;
+            border-radius: 8px;
+    }
+    #list-home-cart {
+            background-color: #F7F7FA;
+            color: $four_color;
+            text-align: center;
+            border-radius: 8px;
+            margin-right: 20px;
+    }
+    #list-profile-cart.active {
+        background-color: #ffffff;
+        border: 1px solid black;
+        color: black;
+        text-align: center;
+        border-radius: 8px;
+    }
+    #list-profile-cart {
+        background-color: #F7F7FA;
+        color: $four_color;
+        text-align: center;
+        border-radius: 8px;
+    }
+}
+#list-pay-cart {
+    flex-direction: row;
+    margin: 20px 0px;
+
+    #list-home-pay-cart.active {
+            background-color: #ffffff;
+            border: 1px solid black;
+            color: black;
+            text-align: center;
+            border-radius: 8px;
+    }
+    #list-home-pay-cart {
+            background-color: #F7F7FA;
+            color: $four_color;
+            text-align: center;
+            border-radius: 8px;
+            margin-right: 20px;
+    }
+    #list-profile-pay-cart.active {
+        background-color: #ffffff;
+        border: 1px solid black;
+        color: black;
+        text-align: center;
+        border-radius: 8px;
+    }
+    #list-profile-pay-cart {
+        background-color: #F7F7FA;
+        color: $four_color;
+        text-align: center;
+        border-radius: 8px;
+    }
+}
+#nav-tabContent {
+    margin-bottom: 20px;
+}
+.person_info {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    li {
+        ul{
+            display: flex;
+            flex-direction: column;
+            color: $four_color;
+            margin-bottom: 10px;
+            li{
+                margin-bottom: 5px;
+                input {
+                    width: 290px;
+                    border: 1px solid $four_color;
+                   }
+                span {
+                    color: $five_color;
+                    margin-left: 5px;
+                }
+            }
+        }
+    }
+}

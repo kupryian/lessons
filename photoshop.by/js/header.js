@@ -279,10 +279,10 @@ var headerIn =`<div class="menu_drop" onclick="menuClose()">
   <input type="text" class="head_bottom head_search" placeholder="Я ищу.." aria-label="Имя пользователя получателя" aria-describedby="button-addon2">
   <button class="search_btn" type="button" id=""><img src="img/search.png" alt=""></button>
 </div>
-        <ul class="">
+        <ul class="head_icon">
             <li><img class="head-icon" src="img/map pin.png" alt=""><p>Адрес</p></li>
             <li><img class="head-icon" src="img/user.png" alt=""><p>Войти</p></li>
-            <li><img class="head-icon" src="img/shopping cart.png" alt=""><p>Корзина</p></li>
+            <li><a href="/lessons/photoshop.by/cart.html"><img class="head-icon" src="img/shopping cart.png" alt=""><p>Корзина</p></a></li>
         </ul>
         </div>
     </div>
@@ -294,7 +294,7 @@ var headerIn =`<div class="menu_drop" onclick="menuClose()">
                 <li><a href="index.html"></a></li>
                 <li onclick="menuOpen()"><a href="#"></a></li>
                 <li onclick="menuClose()"><a href="#"></a></li>
-                <li><a href="#"></a></li>
+                <li><a href="/lessons/photoshop.by/cart.html"></a></li>
                 <li><a href="#"></a></li>
             </ul>
         </div> 

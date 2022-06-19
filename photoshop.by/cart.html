@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/normolize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <title>Корзина - интернет магазин по продаже фото</title>
+</head>
+<body>
+    <header>
+    </header>
+    <!-- конец хедера -->
+    <div class="contain">   
+        <nav aria-label="breadcrumb">
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="index.html">Главная</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Корзина</li>
+          </ol>
+        </nav>
+    </div>
+    <div class="contain">  
+        <h2>Заказ</h2>
+        <div class="articul">
+        <p>Артикул: 12345678</p>
+        <ul>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul><p>57 отзывов</p>
+        </div>
+        <div class="photo_galery" >
+            <div class="pre_photo">
+                <img src="img/canon_eos_5d_mark_iii_body_1.jpg" alt="" onclick="pre_photo_1()">
+                <img src="img/canon_eos_5d_mark_iii_body_2.jpg" alt="" onclick="pre_photo_2()">
+                <img src="img/canon_eos_5d_mark_iii_body_3.jpg" alt="" onclick="pre_photo_3()">
+                <img src="img/canon_eos_5d_mark_iii_body_4.jpg" alt="" onclick="pre_photo_4()">
+            </div>
+            <div class="big_photo">
+                <img src="img/canon_eos_5d_mark_iii_body_1.jpg" alt="">
+                <img src="img/canon_eos_5d_mark_iii_body_2.jpg" alt="">
+                <img src="img/canon_eos_5d_mark_iii_body_3.jpg" alt="">
+                <img src="img/canon_eos_5d_mark_iii_body_4.jpg" alt="">
+            </div>
+            <div class="prise_card" id="cart_id">
+                <ul>
+                    <li>
+                        <ul>
+                            <li><h2>4 210р</h2></li>
+                            <li>5100 р</li>
+                            <li>-10%</li>
+                        </ul>
+                    </li>
+                    <li><span>Гарантия:</span> от производителя 2 года</li>
+                    <li><button class="add_cart">ДОБАВИТ В КОРЗИНУ</button></li>
+                    <li><span>Доставка:</span> ориентировочно два дня </li>
+                </ul>
+
+            </div>
+            
+        </div>
+        <h2>Доставка</h2>
+        <div class="row">
+            <div class="col-8">
+              <div class="list-group" id="list-cart" role="tablist">
+                <a class="list-group-item list-group-item-action active" id="list-home-cart" data-bs-toggle="list" href="#list-home" role="tab" aria-controls="home">Самовывоз</a>
+                <a class="list-group-item list-group-item-action" id="list-profile-cart" data-bs-toggle="list" href="#list-profile" role="tab" aria-controls="profile">Доставка</a>
+              </div>
+            </div>
+            <div class="col-12">
+              <div class="tab-content" id="nav-tabContent">
+                <div class="tab-pane fade show active" id="list-home" role="tabpanel" aria-labelledby="list-home-list">
+                    <h6>ул. Такая то</h6>
+
+                </div>
+                <div class="tab-pane fade" id="list-profile" role="tabpanel" aria-labelledby="list-profile-list">
+                    <h6>Для доставки необходимо указать адрес</h6>
+
+                </div>
+
+              </div>
+            </div>
+        </div>
+          <h2>Оплата</h2>
+        <div class="row">
+              <div class="col-8">
+                <div class="list-group" id="list-pay-cart" role="tablist">
+                  <a class="list-group-item list-group-item-action active" id="list-home-pay-cart" data-bs-toggle="list" href="#list-home-pay" role="tab" aria-controls="home">Картой</a>
+                  <a class="list-group-item list-group-item-action" id="list-profile-pay-cart" data-bs-toggle="list" href="#list-profile-pay" role="tab" aria-controls="profile">Наличными при доставке</a>
+                </div>
+              </div>
+        </div>
+        <h2>Ваши данные</h2>
+        <ul class="person_info col-8">
+            <li>
+                <ul>
+                    <li>Имя<span>*</span></li>
+                    <li><input type="text"></li>
+                </ul>
+            </li>
+            <li>
+                <ul>
+                    <li>Фамилия<span>*</span></li>
+                    <li><input type="text"></li>
+                </ul>
+            </li>
+            <li>
+                <ul>
+                    <li>Контактный телефон<span>*</span></li>
+                    <li><input type="tel"></li>
+                </ul>
+            </li>
+            <li>
+                <ul>
+                    <li>Электронная почта</li>
+                    <li><input type="email"></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+    
+
+    <footer>
+
+    </footer>
+    <script src="js/cardrender.js"></script>
+    <script src="js/footer.js"></script>
+    <script src="js/header.js"></script>
+    <script src="js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+</body>
+</html>
