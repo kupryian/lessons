@@ -408,24 +408,24 @@ a:hover {
       height: 50px;
       border-radius: 25px; }
     .head_bottom_mobile ul li:first-child {
-      background-image: url(../img/mobile_menu.png);
+      background-image: url(../img/mobile_menu2.png);
       background-position-x: 542px;
       background-position-y: -19px; }
     .head_bottom_mobile ul li:nth-child(2) {
-      background-image: url(../img/mobile_menu.png);
+      background-image: url(../img/mobile_menu2.png);
       background-position-x: 394px;
       background-position-y: -19px; }
     .head_bottom_mobile ul li:nth-child(3) {
-      background-image: url(../img/mobile_menu.png);
+      background-image: url(../img/mobile_menu2.png);
       background-position-x: 394px;
-      background-position-y: -19px;
+      background-position-y: -62px;
       display: none; }
     .head_bottom_mobile ul li:nth-child(4) {
-      background-image: url(../img/mobile_menu.png);
+      background-image: url(../img/mobile_menu2.png);
       background-position-x: 244px;
-      background-position-y: -16px; }
+      background-position-y: -20px; }
     .head_bottom_mobile ul li:nth-child(5) {
-      background-image: url(../img/mobile_menu.png);
+      background-image: url(../img/mobile_menu2.png);
       background-position-x: 98px;
       background-position-y: -19px; }
     .head_bottom_mobile ul a {
