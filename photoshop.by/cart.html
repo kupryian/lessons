@@ -25,116 +25,137 @@
           </ol>
         </nav>
     </div>
-    <div class="contain">  
-        <h2>Заказ</h2>
-        <div class="articul">
-        <p>Артикул: 12345678</p>
-        <ul>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-        </ul><p>57 отзывов</p>
-        </div>
-        <div class="photo_galery" >
-            <div class="pre_photo">
-                <img src="img/canon_eos_5d_mark_iii_body_1.jpg" alt="" onclick="pre_photo_1()">
-                <img src="img/canon_eos_5d_mark_iii_body_2.jpg" alt="" onclick="pre_photo_2()">
-                <img src="img/canon_eos_5d_mark_iii_body_3.jpg" alt="" onclick="pre_photo_3()">
-                <img src="img/canon_eos_5d_mark_iii_body_4.jpg" alt="" onclick="pre_photo_4()">
-            </div>
-            <div class="big_photo">
-                <img src="img/canon_eos_5d_mark_iii_body_1.jpg" alt="">
-                <img src="img/canon_eos_5d_mark_iii_body_2.jpg" alt="">
-                <img src="img/canon_eos_5d_mark_iii_body_3.jpg" alt="">
-                <img src="img/canon_eos_5d_mark_iii_body_4.jpg" alt="">
-            </div>
-            <div class="prise_card" id="cart_id">
-                <ul>
+    <div class="contain">
+        <div class="cart_contain">
+            <ul>
+                <li>
+                    <h2>Заказ</h2>
+                    <ul class="product_in_cart">
+                        <li><img src="img/canon_eos_5d_mark_iii_body_1.jpg" alt=""></li>
+                        <li>Зеркальный фотоаппарат Canon EOS 5D Mark IV Body</li>
+                        <li>
+                            <ul>
+                                <li onclick="down1()">-</li>
+                                <li class="product_number">1</li>
+                                <li onclick="up1()">+</li>
+                            </ul>
+                        </li>
+                        <li><H2>4 250p</H2><span>5 400р</span></li>
+                    </ul>
+                <h2>Доставка</h2>
+                <div class="row">
+                    <div class="">
+                      <div class="list-group" id="list-cart" role="tablist">
+                        <a class="list-group-item list-group-item-action active" id="list-home-cart" data-bs-toggle="list" href="#list-home" role="tab" aria-controls="home">Самовывоз</a>
+                        <a class="list-group-item list-group-item-action" id="list-profile-cart" data-bs-toggle="list" href="#list-profile" role="tab" aria-controls="profile">Доставка</a>
+                      </div>
+                    </div>
+                    <div class="col-12">
+                      <div class="tab-content" id="nav-tabContent">
+                        <div class="tab-pane fade show active" id="list-home" role="tabpanel" aria-labelledby="list-home-list">
+                            <h6>ул. Такая то</h6>
+        
+                        </div>
+                        <div class="tab-pane fade" id="list-profile" role="tabpanel" aria-labelledby="list-profile-list">
+                            <h6>Для доставки необходимо указать адрес</h6>
+        
+                        </div>
+        
+                      </div>
+                    </div>
+                </div>
+                  <h2>Оплата</h2>
+                <div class="row">
+                      <div class="">
+                        <div class="list-group" id="list-pay-cart" role="tablist">
+                          <a class="list-group-item list-group-item-action active" id="list-home-pay-cart" data-bs-toggle="list" href="#list-home-pay" role="tab" aria-controls="home">Картой</a>
+                          <a class="list-group-item list-group-item-action" id="list-profile-pay-cart" data-bs-toggle="list" href="#list-profile-pay" role="tab" aria-controls="profile">Наличными при доставке</a>
+                        </div>
+                      </div>
+                </div>
+                <h2>Ваши данные</h2>
+                <ul class="person_info">
                     <li>
                         <ul>
-                            <li><h2>4 210р</h2></li>
-                            <li>5100 р</li>
-                            <li>-10%</li>
+                            <li>Имя<span>*</span></li>
+                            <li><input type="text"></li>
                         </ul>
                     </li>
-                    <li><span>Гарантия:</span> от производителя 2 года</li>
-                    <li><button class="add_cart">ДОБАВИТ В КОРЗИНУ</button></li>
-                    <li><span>Доставка:</span> ориентировочно два дня </li>
+                    <li>
+                        <ul>
+                            <li>Фамилия<span>*</span></li>
+                            <li><input type="text"></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <ul>
+                            <li>Контактный телефон<span>*</span></li>
+                            <li><input type="tel"></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <ul>
+                            <li>Электронная почта</li>
+                            <li><input type="email"></li>
+                        </ul>
+                    </li>
                 </ul>
-
-            </div>
-            
+            </li>
+            <li>
+                <ul class="itog_cart">
+                    <li>
+                        <ul>
+                            <li><h2>Итого</h2></li>
+                            <li><h2>4 250р</h2></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <ul>
+                            <li>Товары, 1шт.</li>
+                            <li>4 250р.</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <ul>
+                            <li>Скидка</li>
+                            <li>-1 160р.</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <ul>
+                            <li>Доставка</li>
+                            <li>Выбрать адрес доставки</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <ul>
+                            <li><button class="add_cart">ЗАКАЗАТЬ</button></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <ul>
+                            <li>&#10004;</li>
+                            <li><span>Согласен с условиями</span> Правил
+                                пользования торговой площадкой и
+                                правилами возврата</li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            </ul>
         </div>
-        <h2>Доставка</h2>
-        <div class="row">
-            <div class="col-8">
-              <div class="list-group" id="list-cart" role="tablist">
-                <a class="list-group-item list-group-item-action active" id="list-home-cart" data-bs-toggle="list" href="#list-home" role="tab" aria-controls="home">Самовывоз</a>
-                <a class="list-group-item list-group-item-action" id="list-profile-cart" data-bs-toggle="list" href="#list-profile" role="tab" aria-controls="profile">Доставка</a>
-              </div>
-            </div>
-            <div class="col-12">
-              <div class="tab-content" id="nav-tabContent">
-                <div class="tab-pane fade show active" id="list-home" role="tabpanel" aria-labelledby="list-home-list">
-                    <h6>ул. Такая то</h6>
-
-                </div>
-                <div class="tab-pane fade" id="list-profile" role="tabpanel" aria-labelledby="list-profile-list">
-                    <h6>Для доставки необходимо указать адрес</h6>
-
-                </div>
-
-              </div>
-            </div>
-        </div>
-          <h2>Оплата</h2>
-        <div class="row">
-              <div class="col-8">
-                <div class="list-group" id="list-pay-cart" role="tablist">
-                  <a class="list-group-item list-group-item-action active" id="list-home-pay-cart" data-bs-toggle="list" href="#list-home-pay" role="tab" aria-controls="home">Картой</a>
-                  <a class="list-group-item list-group-item-action" id="list-profile-pay-cart" data-bs-toggle="list" href="#list-profile-pay" role="tab" aria-controls="profile">Наличными при доставке</a>
-                </div>
-              </div>
-        </div>
-        <h2>Ваши данные</h2>
-        <ul class="person_info col-8">
-            <li>
-                <ul>
-                    <li>Имя<span>*</span></li>
-                    <li><input type="text"></li>
-                </ul>
-            </li>
-            <li>
-                <ul>
-                    <li>Фамилия<span>*</span></li>
-                    <li><input type="text"></li>
-                </ul>
-            </li>
-            <li>
-                <ul>
-                    <li>Контактный телефон<span>*</span></li>
-                    <li><input type="tel"></li>
-                </ul>
-            </li>
-            <li>
-                <ul>
-                    <li>Электронная почта</li>
-                    <li><input type="email"></li>
-                </ul>
-            </li>
-        </ul>
+        
     </div>
     
 
     <footer>
 
     </footer>
-    <script src="js/cardrender.js"></script>
+    <!-- <script src="js/cardrender.js"></script> -->
     <script src="js/footer.js"></script>
     <script src="js/header.js"></script>
-    <script src="js/script.js"></script>
+    <!-- <script src="js/script.js"></script> -->
+    <script src="js/cart.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
 </body>
