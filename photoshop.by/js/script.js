@@ -6,7 +6,7 @@ for(var i=0;i<5;i++) {
     htmlCards += `
                 <div>
                     <div class="sale_hits_img">
-                    <img src="${cards[i].img}" alt="">
+                    <img src="${cards[i].img}" alt="купить ${cards[i].title}">
                     </div>
                     <p class="price_cart">${cards[i].pcice}</p><p class="old_price_cart">${cards[i].oldPrice}</p>
                     <p>${cards[i].title}</p>
@@ -23,7 +23,7 @@ function viev_more() {
         htmlCardsMore += `
                     <div>
                         <div class="sale_hits_img">
-                        <img src="${cards[i].img}" alt="">
+                        <img src="${cards[i].img}" alt="купить ${cards[i].title}">
                         </div>
                         <p class="price_cart">${cards[i].pcice}</p><p class="old_price_cart">${cards[i].oldPrice}</p>
                         <p>${cards[i].title}</p>
