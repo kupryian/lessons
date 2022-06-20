@@ -837,6 +837,26 @@ div.vendor_slider {
         -ms-flex-pack: justify;
             justify-content: space-between; }
 
+.vendor {
+  width: 100%;
+  height: 100px;
+  background-image: url(../img/Frame244.png);
+  background-position-x: 0px;
+  background-size: 1680px;
+  -webkit-animation: changeBg 15s infinite linear;
+          animation: changeBg 15s infinite linear; }
+
+@-webkit-keyframes changeBg {
+  0% {
+    background-position-x: 0px; }
+  100% {
+    background-position-x: -1680px; } }
+
+@keyframes changeBg {
+  0% {
+    background-position-x: 0px; }
+  100% {
+    background-position-x: -1680px; } }
 .obzory {
   display: -webkit-box;
   display: -ms-flexbox;
