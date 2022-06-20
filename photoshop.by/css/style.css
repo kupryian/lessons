@@ -36,6 +36,10 @@ a:hover {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex; }
+  .wrap a {
+    color: #ffffff; }
+  .wrap a:hover {
+    color: #FADE4B; }
 
 .contain {
   width: 1140px;
@@ -218,12 +222,17 @@ a:hover {
   .head_top .menu li:first-child {
     margin-left: 50px; }
   .head_top .button_location {
-    margin: 14px 0px;
+    margin: 10px 0px;
     padding: 4px 8px 4px 8px;
     border-radius: 31px;
     background-color: rgba(255, 255, 255, 0.2); }
-    .head_top .button_location img {
-      margin-bottom: 2px; }
+  .head_top .form-select {
+    width: 85px;
+    border: none;
+    background-image: url(../img/Rectangle29.png);
+    background-size: 5%; }
+    .head_top .form-select option {
+      color: #000000; }
   @media (max-width: 900px) {
     .head_top {
       display: none; } }
@@ -361,6 +370,21 @@ a:hover {
 
 .head_icon a {
   color: #ffffff; }
+.head_icon li {
+  -webkit-transform: scale(1);
+          transform: scale(1);
+  -webkit-transition: 0.5s;
+  transition: 0.5s; }
+.head_icon li:hover {
+  color: #FADE4B;
+  -webkit-transform: translateY(-7px);
+          transform: translateY(-7px);
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2); }
+  .head_icon li:hover a {
+    color: #FADE4B; }
 
 .input_head_search {
   width: 459px; }
@@ -789,7 +813,9 @@ a:hover {
   border-radius: 28px;
   width: 220px;
   margin: 32px auto;
-  font-weight: 600; }
+  font-weight: 600;
+  -webkit-transition: 0.5s;
+  transition: 0.5s; }
 
 .sale_hist_viev_more:hover {
   background-color: #FADE4B;
@@ -797,7 +823,9 @@ a:hover {
           box-shadow: 0px 15px 20px rgba(250, 222, 75, 0.4);
   color: #000000;
   -webkit-transform: translateY(-7px);
-          transform: translateY(-7px); }
+          transform: translateY(-7px);
+  -webkit-transition: 0.5s;
+  transition: 0.5s; }
 
 div.vendor_slider {
   margin: 31px 0px; }

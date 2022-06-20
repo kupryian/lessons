@@ -257,10 +257,14 @@ var headerIn =`<div class="menu_drop" onclick="menuClose()">
 <div class="head_top">
     <div class="contain">
         <div class="wrap">
-        <div class="head_top button_location">Минск <img src="img/Rectangle 29.png" alt=""></div>
+        <select class="form-select head_top button_location" aria-label="Default select example">
+        <option selected>Минск</option>
+        <option value="1">Витебск</option>
+        <option value="2">Брест</option>
+        </select>
         <ul>
-            <li>+375-29-275-94-61</li>
-            <li>+375-29-275-94-61</li>
+            <li><a href="tel:+375292759461">+375-29-275-94-61</a></li>
+            <li><a href="tel:+375292759461">+375-29-275-94-61</a></li>
         </ul>
         <ul class="menu">
             <li>Фотомагазин</li>
