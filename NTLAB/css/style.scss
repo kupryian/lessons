@@ -1,3 +1,4 @@
+
 .accordion-body {
     background: url(../img/black-arrow-line.png) repeat-y 10px 50px;
     // background: ;
@@ -41,37 +42,86 @@
 }
 .wrap_pl_tc {
     // background: red;
-    background: url(../img/black_left-white_s.png) no-repeat 320px top, url(../img/black_rigth-white_s.png) no-repeat 320px bottom, url(../img/black-line-skobka.png) repeat-y 334px, url(../img/lish.png) no-repeat left 50px / 64px;;
+    background: url(../img/black_left-white_s.png) no-repeat 310px top, url(../img/black_rigth-white_s.png) no-repeat 310px bottom, url(../img/black-line-skobka.png) repeat-y 325px, url(../img/lish.png) no-repeat left 50px / 64px;;
     >ul {
         display: flex;
-        li:last-child {
+        > li:last-child {
         padding-left: 35px;
-        padding-top: 35px;
+        padding-top: 20px;
         color:#000080;
         font-size: 14px;
         }
     }
 }
 .design_group {
-    background: url(../img/black_left-white_s.png) no-repeat 320px top, url(../img/black_rigth-white_s.png) no-repeat 320px bottom, url(../img/black-line-skobka.png) repeat-y 334px;
+    background: url(../img/black_left-white_s.png) no-repeat 310px top, url(../img/black_rigth-white_s.png) no-repeat 310px bottom, url(../img/black-line-skobka.png) repeat-y 325px;
+        display: flex;
+        > li:last-child {
+        padding-left: 35px;
+        padding-top: 20px;
+        color:#000080;
+        font-size: 14px;
+        }
 }
 .design_group_1 {
-    background: url(../img/black_left-white_s.png) no-repeat 320px top, url(../img/black_rigth-white_s.png) no-repeat 320px bottom, url(../img/black-line-skobka.png) repeat-y 334px;
+    background: url(../img/black_left-white_s.png) no-repeat 310px top, url(../img/black_rigth-white_s.png) no-repeat 310px bottom, url(../img/black-line-skobka.png) repeat-y 325px;
+    display: flex;
+    > li:last-child {
+    padding-left: 35px;
+    padding-top: 20px;
+    color:#000080;
+    font-size: 14px;
+    }
 }
 .design_group_2 {
-    background: url(../img/black_left-white_s.png) no-repeat 320px top, url(../img/black_rigth-white_s.png) no-repeat 320px bottom, url(../img/black-line-skobka.png) repeat-y 334px;
+    background: url(../img/black_left-white_s.png) no-repeat 310px top, url(../img/black_rigth-white_s.png) no-repeat 310px bottom, url(../img/black-line-skobka.png) repeat-y 325px;
+    display: flex;
+    > li:last-child {
+    padding-left: 35px;
+    padding-top: 20px;
+    color:#000080;
+    font-size: 14px;
+    }
 }
 .characterization_group {
-    background: url(../img/black_left-white_s.png) no-repeat 320px top, url(../img/black_rigth-white_s.png) no-repeat 320px bottom, url(../img/black-line-skobka.png) repeat-y 334px;
+    background: url(../img/black_left-white_s.png) no-repeat 310px top, url(../img/black_rigth-white_s.png) no-repeat 310px bottom, url(../img/black-line-skobka.png) repeat-y 325px;
+    display: flex;
+    > li:last-child {
+    padding-left: 35px;
+    padding-top: 20px;
+    color:#000080;
+    font-size: 14px;
+    }
 }
 .characterization_group_1 {
-    background: url(../img/black_left-white_s.png) no-repeat 320px top, url(../img/black_rigth-white_s.png) no-repeat 320px bottom, url(../img/black-line-skobka.png) repeat-y 334px;
+    background: url(../img/black_left-white_s.png) no-repeat 310px top, url(../img/black_rigth-white_s.png) no-repeat 310px bottom, url(../img/black-line-skobka.png) repeat-y 325px;
+    display: flex;
+    > li:last-child {
+    padding-left: 35px;
+    padding-top: 20px;
+    color:#000080;
+    font-size: 14px;
+    }
 }
 .characterization_group_2 {
-    background: url(../img/black_left-white_s.png) no-repeat 320px top, url(../img/black_rigth-white_s.png) no-repeat 320px bottom, url(../img/black-line-skobka.png) repeat-y 334px;
+    background: url(../img/black_left-white_s.png) no-repeat 310px top, url(../img/black_rigth-white_s.png) no-repeat 310px bottom, url(../img/black-line-skobka.png) repeat-y 325px;
+    display: flex;
+    > li:last-child {
+    padding-left: 35px;
+    padding-top: 20px;
+    color:#000080;
+    font-size: 14px;
+    }
 }
 .characterization_group_3 {
-    background: url(../img/black_left-white_s.png) no-repeat 320px top, url(../img/black_rigth-white_s.png) no-repeat 320px bottom, url(../img/black-line-skobka.png) repeat-y 334px;
+    background: url(../img/black_left-white_s.png) no-repeat 310px top, url(../img/black_rigth-white_s.png) no-repeat 310px bottom, url(../img/black-line-skobka.png) repeat-y 325px;
+    display: flex;
+    > li:last-child {
+    padding-left: 35px;
+    padding-top: 20px;
+    color:#000080;
+    font-size: 14px;
+    }
 }
 // h2 {
 //     text-align: center;
@@ -81,18 +131,19 @@
     width: 1140px;
     margin: 0 auto;
     border-top: 0.1px;
-    background-color: aquamarine;
+    
     display: flex;
     .contain_left {
-        width: 450px;
+        width: 600px;
         border-top: 0.1px;
-        background-color: bisque;
+        
         .new_project {
             h2 {
             text-align: center;
             padding: 7px;
             background-color: #a5d0f0;
             margin-top: 50px;
+            border: 3px solid black;
             }
         }
         .input_space {
@@ -110,9 +161,9 @@
 }
 
 .contain_left_in {
-    width: 250px;
+    width: 240px;
     margin-left: 64px;
-    background-color: aqua;
+    
 }
 .release_bottom {
     margin-bottom: 30px;
@@ -177,6 +228,9 @@
     >li {
         >ul {
             display: flex;
+            > li {
+                width: 80px;
+            }
             > li:last-child {
                 width:220px;
                 margin-top: 48px;
