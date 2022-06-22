@@ -13,5 +13,6 @@ function down1() {
     numberProduct<1 ? numberProduct = 1 : 
     number.innerHTML = numberProduct;
     }
+
 console.log ("js_cart ok");
 

@@ -230,7 +230,8 @@ a:hover {
     width: 85px;
     border: none;
     background-image: url(../img/Rectangle29.png);
-    background-size: 5%; }
+    background-size: 5%;
+    padding-left: 10px; }
     .head_top .form-select option {
       color: #000000; }
   @media (max-width: 900px) {

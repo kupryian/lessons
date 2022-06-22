@@ -1,9 +1,14 @@
 var cards = [
-    {
-        img: "img/a8e639bfb5599eaa6651d39aa3b45f0a 1.png",
-        pcice: "4 240 р",
-        oldPrice: "5 400 р",
-        title: "Canon EOS 5D Mark IV Body"
+{
+    img: "img/a8e639bfb5599eaa6651d39aa3b45f0a 1.png",
+    pcice: "4 240 р",
+    oldPrice: "5 400 р",
+    title: "Canon EOS 5D Mark IV Body",
+    photo1: "img/canon_eos_5d_mark_iii_body_1.jpg",
+    photo2: "img/canon_eos_5d_mark_iii_body_2.jpg",
+    photo3: "img/canon_eos_5d_mark_iii_body_3.jpg",
+    photo4: "img/canon_eos_5d_mark_iii_body_4.jpg",
+    id: "card1"
 },
 {
     img: "img/002.png",
@@ -60,4 +65,5 @@ var cards = [
     title: "Объектив Fujifilm XF 80mm f/2.8 R LM OIS WR Macro"
 }
 ];
+var idCards =["card1", "card2","card3","card4","card5","card6","card7","card8","card9","card10"];
 console.log("rendercard ok")
