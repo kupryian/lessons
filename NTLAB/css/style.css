@@ -140,7 +140,7 @@
   list-style-image: url(../img/ul_arrow.png) !important;
   list-style-position: inside;
   padding-bottom: 30px;
-  background: url(../img/black_rigth-white_r.png) no-repeat left bottom, url(../img/black_rigth-white_s.png) no-repeat right bottom, url(../img/black-line-skobka-bottom.png) repeat-x 0px 51px; }
+  background: url(../img/black_rigth-white_r.png) no-repeat left 37px, url(../img/black_rigth-white_s.png) no-repeat right 37px, url(../img/black-line-skobka-bottom.png) repeat-x 0px 52px; }
   .realese_ul > li {
     padding-left: 5px;
     display: list-item;
@@ -177,7 +177,7 @@
   color: #000080;
   font-weight: 600;
   padding-bottom: 46px;
-  background: url(../img/black_rigth-white_r.png) no-repeat left bottom, url(../img/black_rigth-white_s.png) no-repeat right bottom, url(../img/black-line-skobka-bottom.png) repeat-x 0px 51px; }
+  background: url(../img/black_rigth-white_r.png) no-repeat left bottom, url(../img/black_rigth-white_s.png) no-repeat right bottom, url(../img/black-line-skobka-bottom.png) repeat-x 0px 52px; }
   .vnutri_1 .vnutri_1_1 {
     display: none;
     background: #b6efff;
