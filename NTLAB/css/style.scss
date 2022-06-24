@@ -341,6 +341,7 @@
         @media screen and (max-width: 600px) {
             background: url(../img/black_left-white_s.png) no-repeat 134px top, url(../img/black_rigth-white_s.png) no-repeat 134px bottom, url(../img/black-line-skobka.png) repeat-y 149px;
             padding-right: 5px; 
+            
         }
         > li {
             padding-left: 5px;
@@ -350,6 +351,10 @@
             font-weight: 600;
             @media screen and (max-width: 900px) {
                 padding-left: 0px;   
+                width: auto;
+            }
+            @media screen and (max-width: 600px) {  
+                width: 154px;
             }
                 .strelka {
                     display: none;

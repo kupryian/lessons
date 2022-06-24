@@ -301,7 +301,11 @@
     font-weight: 600; }
     @media screen and (max-width: 900px) {
       .realese_ul > li {
-        padding-left: 0px; } }
+        padding-left: 0px;
+        width: auto; } }
+    @media screen and (max-width: 600px) {
+      .realese_ul > li {
+        width: 154px; } }
     .realese_ul > li .strelka {
       display: none;
       border: none; }
