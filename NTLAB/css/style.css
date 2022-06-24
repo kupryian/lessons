@@ -25,14 +25,20 @@
   border: 3px solid black; }
 
 .wrap_pl_tc {
-  background: url(../img/black_left-white_s.png) no-repeat 310px top, url(../img/black_rigth-white_s.png) no-repeat 310px bottom, url(../img/black-line-skobka.png) repeat-y 325px, url(../img/lish.png) no-repeat left 50px/64px; }
+  background: url(../img/black_left-white_s.png) no-repeat 310px top, url(../img/black_rigth-white_s.png) no-repeat 310px bottom, url(../img/black-line-skobka.png) repeat-y 325px; }
+  .wrap_pl_tc.active1 {
+    background: url(../img/black_left-white_s.png) no-repeat 310px top, url(../img/black_rigth-white_s.png) no-repeat 310px bottom, url(../img/black-line-skobka.png) repeat-y 325px, url(../img/lish.png) no-repeat left 50px/64px; }
   .wrap_pl_tc > ul {
     display: flex; }
     .wrap_pl_tc > ul > li:last-child {
       padding-left: 35px;
       padding-top: 20px;
       color: #000080;
-      font-size: 14px; }
+      font-size: 14px;
+      transition: 0.4s; }
+    .wrap_pl_tc > ul > li.active1 {
+      padding-top: 50%;
+      transition: 0.4s; }
 
 .design_group {
   background: url(../img/black_left-white_s.png) no-repeat 310px top, url(../img/black_rigth-white_s.png) no-repeat 310px bottom, url(../img/black-line-skobka.png) repeat-y 325px;
@@ -97,11 +103,29 @@
     color: #000080;
     font-size: 14px; }
 
+.glav_img {
+  text-align: center; }
+  .glav_img img {
+    width: 80%;
+    display: block; }
+  @media screen and (max-width: 900px) {
+    .glav_img {
+      width: 900px;
+      display: none; } }
+
 .contain {
   width: 1140px;
   margin: 0 auto;
   border-top: 0.1px;
   display: flex; }
+  @media screen and (max-width: 1140px) {
+    .contain {
+      width: 900px;
+      flex-wrap: nowrap; } }
+  @media screen and (max-width: 900px) {
+    .contain {
+      width: 600px;
+      flex-wrap: wrap; } }
   .contain .contain_left {
     width: 600px;
     border-top: 0.1px; }
@@ -109,7 +133,6 @@
       text-align: center;
       padding: 7px;
       background-color: #a5d0f0;
-      margin-top: 50px;
       border: 3px solid black; }
     .contain .contain_left .input_space {
       height: 25px;
@@ -120,6 +143,11 @@
       background: url(../img/lish.png) no-repeat;
       background-position-x: 0px;
       background-position-y: 157px; }
+  .contain .contain_rigth {
+    width: 100%; }
+    @media screen and (max-width: 900px) {
+      .contain .contain_rigth {
+        width: auto; } }
 
 .contain_left_in {
   width: 240px;
@@ -129,24 +157,71 @@
   margin-bottom: 30px; }
   .release_bottom > li {
     display: flex;
-    justify-content: center; }
-    .release_bottom > li > ul > li:last-child {
-      text-align: center;
-      color: #000080;
-      margin-top: 8px; }
+    justify-content: center;
+    flex-direction: row; }
+    @media screen and (max-width: 900px) {
+      .release_bottom > li {
+        flex-direction: column; } }
+    .release_bottom > li > ul {
+      display: flex;
+      flex-direction: column;
+      margin-left: 0px; }
+      @media screen and (max-width: 900px) {
+        .release_bottom > li > ul {
+          flex-direction: row;
+          margin-left: 100px; } }
+      .release_bottom > li > ul > li:last-child {
+        text-align: center;
+        color: #000080;
+        margin-top: 8px; }
+        @media screen and (max-width: 900px) {
+          .release_bottom > li > ul > li:last-child {
+            text-align: left; } }
+      .release_bottom > li > ul .release1_1 {
+        margin-top: 8px; }
+        @media screen and (max-width: 900px) {
+          .release_bottom > li > ul .release1_1 {
+            margin-top: 123px !important; } }
+      .release_bottom > li > ul .release1_2 {
+        margin-top: 8px; }
+        @media screen and (max-width: 900px) {
+          .release_bottom > li > ul .release1_2 {
+            margin-top: 99px !important; } }
 
 .realese_ul {
   display: flex;
-  list-style-image: url(../img/ul_arrow.png) !important;
+  flex-direction: row;
+  list-style-image: url(../img/ul_arrow.png);
   list-style-position: inside;
-  padding-bottom: 30px;
+  padding-bottom: 46px;
+  padding-right: 0px;
   background: url(../img/black_rigth-white_r.png) no-repeat left 37px, url(../img/black_rigth-white_s.png) no-repeat right 37px, url(../img/black-line-skobka-bottom.png) repeat-x 0px 52px; }
+  @media screen and (max-width: 900px) {
+    .realese_ul {
+      flex-direction: column;
+      list-style-image: none;
+      background: url(../img/black_left-white_s.png) no-repeat 210px top, url(../img/black_rigth-white_s.png) no-repeat 210px bottom, url(../img/black-line-skobka.png) repeat-y 225px;
+      padding-bottom: 0px;
+      padding-right: 20px; } }
   .realese_ul > li {
     padding-left: 5px;
     display: list-item;
     position: relative;
     color: #000080;
     font-weight: 600; }
+    @media screen and (max-width: 900px) {
+      .realese_ul > li {
+        padding-left: 0px; } }
+    .realese_ul > li .strelka {
+      display: none;
+      border: none; }
+      @media screen and (max-width: 900px) {
+        .realese_ul > li .strelka {
+          display: block;
+          height: 25px;
+          background: url(../img/black-arrow-s.png) no-repeat;
+          background-position-x: 40px;
+          background-position-y: -76px; } }
     .realese_ul > li div {
       display: none;
       background: #b6efff;
@@ -166,18 +241,37 @@
         width: 20px;
         color: black;
         opacity: 1; }
-  .realese_ul > li:hover div {
+  .realese_ul > li:hover div:last-child {
     display: block;
     position: absolute;
     top: 15px;
     left: 20px; }
+    @media screen and (max-width: 900px) {
+      .realese_ul > li:hover div:last-child {
+        top: 16px;
+        left: 3px; } }
 
 .vnutri_1 {
   position: relative;
   color: #000080;
   font-weight: 600;
   padding-bottom: 46px;
-  background: url(../img/black_rigth-white_r.png) no-repeat left bottom, url(../img/black_rigth-white_s.png) no-repeat right bottom, url(../img/black-line-skobka-bottom.png) repeat-x 0px 52px; }
+  background: url(../img/black_rigth-white_r.png) no-repeat left 37px, url(../img/black_rigth-white_s.png) no-repeat right 37px, url(../img/black-line-skobka-bottom.png) repeat-x 0px 52px; }
+  @media screen and (max-width: 900px) {
+    .vnutri_1 {
+      background: url(../img/black_left-white_s.png) no-repeat 210px top, url(../img/black_rigth-white_s.png) no-repeat 210px bottom, url(../img/black-line-skobka.png) repeat-y 225px;
+      padding-bottom: 0px;
+      padding-right: 157px; } }
+  .vnutri_1 .strelka {
+    display: none;
+    border: none; }
+    @media screen and (max-width: 900px) {
+      .vnutri_1 .strelka {
+        display: block;
+        height: 45px;
+        background: url(../img/black-arrow-s.png) no-repeat;
+        background-position-x: 40px;
+        background-position-y: -55px; } }
   .vnutri_1 .vnutri_1_1 {
     display: none;
     background: #b6efff;
@@ -213,6 +307,9 @@
     display: flex; }
     .bloki > li > ul > li {
       width: 80px; }
+      @media screen and (max-width: 1140px) {
+        .bloki > li > ul > li {
+          width: 0px; } }
     .bloki > li > ul > li:last-child {
       width: 220px;
       margin-top: 48px; }
