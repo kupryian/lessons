@@ -70,20 +70,14 @@
         display: flex;
         > li:last-child {
         padding-left: 35px;
-        padding-top: 20px;
         color:#000080;
         font-size: 14px;
-        transition: 0.4s;
+        align-self: center;
         @media screen and (max-width: 600px) {
             font-size: 12px;
         }
         }
         > li.active1 {
-            align-self: center;
-            transition: 0.4s;
-            // @media screen and (max-width: 600px) {
-            //     padding-top: 100%;
-            // }
         }
     }
 }
@@ -96,10 +90,9 @@
     display: flex;
         > li:last-child {
         padding-left: 35px;
-        padding-top: 20px;
         color:#000080;
         font-size: 14px;
-        transition: 0.4s;
+        align-self: center;
         @media screen and (max-width: 600px) {
             font-size: 12px;
         }
@@ -114,12 +107,7 @@
         }
     }
     > li.active1 {
-            // padding-top: 40%;
-            align-self: center;
-            transition: 0.4s;
-            // @media screen and (max-width: 600px) {
-            //     padding-top: 90%;
-            // }
+
     }
 }
 .design_group_1 {
@@ -130,10 +118,9 @@
     display: flex;
     > li:last-child {
     padding-left: 35px;
-    padding-top: 20px;
     color:#000080;
     font-size: 14px;
-    transition: 0.4s;
+    align-self: center;
     @media screen and (max-width: 600px) {
         font-size: 12px;
     }
@@ -148,12 +135,7 @@
         }
     }
     > li.active1 {
-            // padding-top: 23%;
-            align-self: center;
-            transition: 0.4s;
-            // @media screen and (max-width: 600px) {
-            //     padding-top: 30%;
-            // }
+
     }
 }
 .design_group_2 {
@@ -164,10 +146,10 @@
     display: flex;
     > li:last-child {
     padding-left: 35px;
-    padding-top: 20px;
+    
     color:#000080;
     font-size: 14px;
-    transition: 0.4s;
+    align-self: center;
     @media screen and (max-width: 600px) {
         font-size: 12px;
     }
@@ -182,12 +164,7 @@
         }
     }
     > li.active1 {
-            // padding-top: 22%;
-            align-self: center;
-            transition: 0.4s;
-            // @media screen and (max-width: 600px) {
-            //     padding-top: 50%;
-            // }
+
     }
 }
 .characterization_group {
@@ -198,10 +175,9 @@
     display: flex;
     > li:last-child {
     padding-left: 35px;
-    padding-top: 20px;
     color:#000080;
     font-size: 14px;
-    transition: 0.4s;
+    align-self: center;
     @media screen and (max-width: 600px) {
         font-size: 12px;
     }
@@ -216,12 +192,7 @@
         }
     }
     > li.active1 {
-            // padding-top: 22%;
-            align-self: center;
-            transition: 0.4s;
-            // @media screen and (max-width: 600px) {
-            //     padding-top: 50%;
-            // }
+
     }
 }
 .characterization_group_1 {
@@ -232,10 +203,9 @@
     display: flex;
     > li:last-child {
     padding-left: 35px;
-    padding-top: 20px;
     color:#000080;
     font-size: 14px;
-    transition: 0.4s;
+    align-self: center;
     @media screen and (max-width: 600px) {
         font-size: 12px;
     }
@@ -250,12 +220,7 @@
         }
     }
     > li.active1 {
-            // padding-top: 22%;
-            align-self: center;
-            transition: 0.4s;
-            // @media screen and (max-width: 600px) {
-            //     padding-top: 50%;
-            // }
+
     }
 }
 .characterization_group_2 {
@@ -266,10 +231,10 @@
     display: flex;
     > li:last-child {
     padding-left: 35px;
-    padding-top: 20px;
+    align-self: center;
     color:#000080;
     font-size: 14px;
-    transition: 0.4s;
+    
     @media screen and (max-width: 600px) {
         font-size: 12px;
     }
@@ -284,12 +249,7 @@
         }
     }
     > li.active1 {
-            // padding-top: 19%;
-            align-self: center;
-            transition: 0.4s;
-            // @media screen and (max-width: 600px) {
-            //     padding-top: 50%;
-            // }
+
     }
 }
 .characterization_group_3 {
@@ -300,10 +260,9 @@
     display: flex;
     > li:last-child {
     padding-left: 35px;
-    padding-top: 20px;
     color:#000080;
     font-size: 14px;
-    transition: 0.4s;
+    align-self: center;
     @media screen and (max-width: 600px) {
         font-size: 12px;
     }
@@ -318,12 +277,7 @@
         }
     }
     > li.active1 {
-            // padding-top: 35%;
-            align-self: center;
-            transition: 0.4s;
-            // @media screen and (max-width: 600px) {
-            //     padding-top: 100%;
-            // }
+
     }
 }
 
