@@ -524,3 +524,140 @@
         }
     }
 }
+.each_block {
+   margin: 0 auto;
+    width: 700px;
+    @media screen and (max-width: 700px) {
+        width: 600px;
+    }
+    @media screen and (max-width: 600px) {
+        width: 320px;
+    }
+
+    >ul { 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 50px;
+    @media screen and (max-width: 600px) {
+        justify-content: baseline;
+    }
+        > li {
+            margin: 0px 30px;
+            @media screen and (max-width: 700px) {
+                margin: 0px 10px;
+            }
+            @media screen and (max-width: 600px) {
+                margin: 10px 0px;
+            }
+            .on600 {
+                display: none;
+                width: 20px;
+                margin: 0px 140px;             
+                @media screen and (max-width: 600px) {
+                    display: inline;
+                }
+            }
+            .off600 {
+                display: inline;
+                @media screen and (max-width: 600px) {
+                    display: none;
+                }
+            }
+            img {
+                width: 50px;
+            }
+            .accordion-button {
+                        background-color: white;
+                        color:#000080;
+                        border: 0px;
+                        font-weight: 600;
+                        padding: 0px;
+                        box-shadow: none;
+                        text-align: left;
+                        
+            }
+            .accordion-body {
+                        background: white;
+                        padding: 10px 0px 2px 0px;
+                        border-left: 1px solid black;
+                        border-bottom: 1px solid black;
+                        > ul {
+                            > li {
+                                position: relative;
+                                span {
+                                    padding-left: 15px;
+                                    font-weight: 400;
+                                }
+                                hr {
+                                    height: 1px;
+                                    margin-top: 5px;
+                                    margin-bottom: 2px;
+                                    width: 20px;
+                                    color: black;
+                                    opacity: 1;
+                                }
+                                div {
+                                    display: none;
+                                    background: #b6efff;
+                                    padding: 10px 0px 2px 0px;
+                                    border-left: 1px solid black;
+                                    border-bottom: 1px solid black;
+                                    font-weight: 400;
+                                    z-index: 10;
+                                    width: 220px;
+                                    span {
+                                        padding-left: 15px;
+                                        font-weight: 400;
+                                    }
+                                    hr {
+                                        height: 1px;
+                                        margin-top: 5px;
+                                        margin-bottom: 2px;
+                                        width: 20px;
+                                        color: black;
+                                        opacity: 1;
+                                    }
+                                }
+                            }
+                            > li:hover div{
+                                display: block;
+                                position: absolute;
+                                top: 15px;
+                                left: 20px;
+                                @media screen and (max-width: 900px) {
+                                    top: 16px;
+                                    left: 1px;
+                                }
+                            }
+
+                        }
+                    }
+        }
+        > li:nth-child(2) {
+            align-self: center;
+        }
+        > li:nth-child(6) {
+            align-self: center;
+            order: 6;
+        }
+        > li:nth-child(4) {
+            width: 100%;
+            text-align: right;
+            
+            img {
+                width: 20px;
+                margin: 20px 140px;
+                @media screen and (max-width: 600px) {
+                    margin: 0px 140px;
+                }
+            }
+        }
+        > li:nth-child(7) {
+            order: 5;
+        }
+        > li:nth-child(5) {
+            order: 7;
+        }
+    }
+}
