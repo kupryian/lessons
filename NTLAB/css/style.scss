@@ -79,11 +79,11 @@
         }
         }
         > li.active1 {
-            padding-top: 50%;
+            align-self: center;
             transition: 0.4s;
-            @media screen and (max-width: 600px) {
-                padding-top: 100%;
-            }
+            // @media screen and (max-width: 600px) {
+            //     padding-top: 100%;
+            // }
         }
     }
 }
@@ -114,11 +114,12 @@
         }
     }
     > li.active1 {
-            padding-top: 40%;
+            // padding-top: 40%;
+            align-self: center;
             transition: 0.4s;
-            @media screen and (max-width: 600px) {
-                padding-top: 90%;
-            }
+            // @media screen and (max-width: 600px) {
+            //     padding-top: 90%;
+            // }
     }
 }
 .design_group_1 {
@@ -147,11 +148,12 @@
         }
     }
     > li.active1 {
-            padding-top: 23%;
+            // padding-top: 23%;
+            align-self: center;
             transition: 0.4s;
-            @media screen and (max-width: 600px) {
-                padding-top: 30%;
-            }
+            // @media screen and (max-width: 600px) {
+            //     padding-top: 30%;
+            // }
     }
 }
 .design_group_2 {
@@ -180,11 +182,12 @@
         }
     }
     > li.active1 {
-            padding-top: 22%;
+            // padding-top: 22%;
+            align-self: center;
             transition: 0.4s;
-            @media screen and (max-width: 600px) {
-                padding-top: 50%;
-            }
+            // @media screen and (max-width: 600px) {
+            //     padding-top: 50%;
+            // }
     }
 }
 .characterization_group {
@@ -213,11 +216,12 @@
         }
     }
     > li.active1 {
-            padding-top: 22%;
+            // padding-top: 22%;
+            align-self: center;
             transition: 0.4s;
-            @media screen and (max-width: 600px) {
-                padding-top: 50%;
-            }
+            // @media screen and (max-width: 600px) {
+            //     padding-top: 50%;
+            // }
     }
 }
 .characterization_group_1 {
@@ -246,11 +250,12 @@
         }
     }
     > li.active1 {
-            padding-top: 22%;
+            // padding-top: 22%;
+            align-self: center;
             transition: 0.4s;
-            @media screen and (max-width: 600px) {
-                padding-top: 50%;
-            }
+            // @media screen and (max-width: 600px) {
+            //     padding-top: 50%;
+            // }
     }
 }
 .characterization_group_2 {
@@ -279,11 +284,12 @@
         }
     }
     > li.active1 {
-            padding-top: 19%;
+            // padding-top: 19%;
+            align-self: center;
             transition: 0.4s;
-            @media screen and (max-width: 600px) {
-                padding-top: 50%;
-            }
+            // @media screen and (max-width: 600px) {
+            //     padding-top: 50%;
+            // }
     }
 }
 .characterization_group_3 {
@@ -312,11 +318,12 @@
         }
     }
     > li.active1 {
-            padding-top: 35%;
+            // padding-top: 35%;
+            align-self: center;
             transition: 0.4s;
-            @media screen and (max-width: 600px) {
-                padding-top: 100%;
-            }
+            // @media screen and (max-width: 600px) {
+            //     padding-top: 100%;
+            // }
     }
 }
 
