@@ -1,5 +1,6 @@
 .accordion-body {
-  background: url(../img/black-arrow-line.png) repeat-y 10px 50px; }
+  background: url(../img/black-arrow-line.png) repeat-y 10px 50px;
+  padding: 1rem 1.25rem 0rem 1.25rem; }
   .accordion-body > ul > li {
     font-weight: 600;
     color: #000080;
@@ -36,15 +37,15 @@
   border: 3px solid black; }
 
 .wrap_pl_tc {
-  background: url(../img/black_left-white_s.png) no-repeat 310px top, url(../img/black_rigth-white_s.png) no-repeat 310px bottom, url(../img/black-line-skobka.png) repeat-y 325px; }
+  background: url(../img/black_left-white_s.png) no-repeat 320px top, url(../img/black_rigth-white_s.png) no-repeat 320px bottom, url(../img/black-line-skobka.png) repeat-y 334px; }
   @media screen and (max-width: 600px) {
     .wrap_pl_tc {
       background: url(../img/black_left-white_s.png) no-repeat 193px top, url(../img/black_rigth-white_s.png) no-repeat 193px bottom, url(../img/black-line-skobka.png) repeat-y 207.5px; } }
   .wrap_pl_tc.active1 {
-    background: url(../img/black_left-white_s.png) no-repeat 310px top, url(../img/black_rigth-white_s.png) no-repeat 310px bottom, url(../img/black-line-skobka.png) repeat-y 325px, url(../img/lish.png) no-repeat left 50px/64px, url(../img/lish3.png) no-repeat left 200px/64px; }
+    background: url(../img/black_left-white_s.png) no-repeat 320px top, url(../img/black_rigth-white_s.png) no-repeat 320px bottom, url(../img/black-line-skobka.png) repeat-y 334px, url(../img/lish.png) no-repeat left 50px/64px, url(../img/lish3.png) no-repeat left 200px/64px; }
     @media screen and (max-width: 600px) {
       .wrap_pl_tc.active1 {
-        background: url(../img/black_left-white_s.png) no-repeat 310px top, url(../img/black_rigth-white_s.png) no-repeat 310px bottom, url(../img/black-line-skobka.png) repeat-y 325px, url(../img/lish.png) no-repeat left 50px/50px, url(../img/lish3.png) no-repeat left 200px/50px; } }
+        background: url(../img/black_left-white_s.png) no-repeat 320px top, url(../img/black_rigth-white_s.png) no-repeat 320px bottom, url(../img/black-line-skobka.png) repeat-y 334px, url(../img/lish.png) no-repeat left 50px/50px, url(../img/lish3.png) no-repeat left 200px/50px; } }
     @media screen and (max-width: 600px) {
       .wrap_pl_tc.active1 {
         background: url(../img/black_left-white_s.png) no-repeat 193px top, url(../img/black_rigth-white_s.png) no-repeat 193px bottom, url(../img/black-line-skobka.png) repeat-y 207.5px, url(../img/lish.png) no-repeat left 200px/50px, url(../img/lish3.png) no-repeat left 340px/50px; } }
@@ -60,7 +61,7 @@
           font-size: 12px; } }
 
 .design_group {
-  background: url(../img/black_left-white_s.png) no-repeat 310px top, url(../img/black_rigth-white_s.png) no-repeat 310px bottom, url(../img/black-line-skobka.png) repeat-y 325px;
+  background: url(../img/black_left-white_s.png) no-repeat 320px top, url(../img/black_rigth-white_s.png) no-repeat 320px bottom, url(../img/black-line-skobka.png) repeat-y 334px;
   display: flex; }
   @media screen and (max-width: 600px) {
     .design_group {
@@ -74,16 +75,16 @@
       .design_group > li:last-child {
         font-size: 12px; } }
   .design_group.active1 {
-    background: url(../img/black_left-white_s.png) no-repeat 310px top, url(../img/black_rigth-white_s.png) no-repeat 310px bottom, url(../img/black-line-skobka.png) repeat-y 325px, url(../img/lish3.png) no-repeat left/64px; }
+    background: url(../img/black_left-white_s.png) no-repeat 320px top, url(../img/black_rigth-white_s.png) no-repeat 320px bottom, url(../img/black-line-skobka.png) repeat-y 334px, url(../img/lish3.png) no-repeat left/64px; }
     @media screen and (max-width: 600px) {
       .design_group.active1 {
-        background: url(../img/black_left-white_s.png) no-repeat 310px top, url(../img/black_rigth-white_s.png) no-repeat 310px bottom, url(../img/black-line-skobka.png) repeat-y 325px, url(../img/lish3.png) no-repeat left/50px; } }
+        background: url(../img/black_left-white_s.png) no-repeat 320px top, url(../img/black_rigth-white_s.png) no-repeat 320px bottom, url(../img/black-line-skobka.png) repeat-y 334px, url(../img/lish3.png) no-repeat left/50px; } }
     @media screen and (max-width: 600px) {
       .design_group.active1 {
         background: url(../img/black_left-white_s.png) no-repeat 193px top, url(../img/black_rigth-white_s.png) no-repeat 193px bottom, url(../img/black-line-skobka.png) repeat-y 207.5px, url(../img/lish3.png) no-repeat left/50px; } }
 
 .design_group_1 {
-  background: url(../img/black_left-white_s.png) no-repeat 310px top, url(../img/black_rigth-white_s.png) no-repeat 310px bottom, url(../img/black-line-skobka.png) repeat-y 325px;
+  background: url(../img/black_left-white_s.png) no-repeat 320px top, url(../img/black_rigth-white_s.png) no-repeat 320px bottom, url(../img/black-line-skobka.png) repeat-y 334px;
   display: flex; }
   @media screen and (max-width: 600px) {
     .design_group_1 {
@@ -97,16 +98,16 @@
       .design_group_1 > li:last-child {
         font-size: 12px; } }
   .design_group_1.active1 {
-    background: url(../img/black_left-white_s.png) no-repeat 310px top, url(../img/black_rigth-white_s.png) no-repeat 310px bottom, url(../img/black-line-skobka.png) repeat-y 325px, url(../img/lish3.png) no-repeat left/64px; }
+    background: url(../img/black_left-white_s.png) no-repeat 320px top, url(../img/black_rigth-white_s.png) no-repeat 320px bottom, url(../img/black-line-skobka.png) repeat-y 334px, url(../img/lish3.png) no-repeat left/64px; }
     @media screen and (max-width: 600px) {
       .design_group_1.active1 {
-        background: url(../img/black_left-white_s.png) no-repeat 310px top, url(../img/black_rigth-white_s.png) no-repeat 310px bottom, url(../img/black-line-skobka.png) repeat-y 325px, url(../img/lish3.png) no-repeat left/50px; } }
+        background: url(../img/black_left-white_s.png) no-repeat 320px top, url(../img/black_rigth-white_s.png) no-repeat 320px bottom, url(../img/black-line-skobka.png) repeat-y 334px, url(../img/lish3.png) no-repeat left/50px; } }
     @media screen and (max-width: 600px) {
       .design_group_1.active1 {
         background: url(../img/black_left-white_s.png) no-repeat 193px top, url(../img/black_rigth-white_s.png) no-repeat 193px bottom, url(../img/black-line-skobka.png) repeat-y 207.5px, url(../img/lish3.png) no-repeat left/50px; } }
 
 .design_group_2 {
-  background: url(../img/black_left-white_s.png) no-repeat 310px top, url(../img/black_rigth-white_s.png) no-repeat 310px bottom, url(../img/black-line-skobka.png) repeat-y 325px;
+  background: url(../img/black_left-white_s.png) no-repeat 320px top, url(../img/black_rigth-white_s.png) no-repeat 320px bottom, url(../img/black-line-skobka.png) repeat-y 334px;
   display: flex; }
   @media screen and (max-width: 600px) {
     .design_group_2 {
@@ -120,16 +121,16 @@
       .design_group_2 > li:last-child {
         font-size: 12px; } }
   .design_group_2.active1 {
-    background: url(../img/black_left-white_s.png) no-repeat 310px top, url(../img/black_rigth-white_s.png) no-repeat 310px bottom, url(../img/black-line-skobka.png) repeat-y 325px, url(../img/lish4.png) no-repeat left/64px; }
+    background: url(../img/black_left-white_s.png) no-repeat 320px top, url(../img/black_rigth-white_s.png) no-repeat 320px bottom, url(../img/black-line-skobka.png) repeat-y 334px, url(../img/lish4.png) no-repeat left/64px; }
     @media screen and (max-width: 600px) {
       .design_group_2.active1 {
-        background: url(../img/black_left-white_s.png) no-repeat 310px top, url(../img/black_rigth-white_s.png) no-repeat 310px bottom, url(../img/black-line-skobka.png) repeat-y 325px, url(../img/lish4.png) no-repeat left/50px; } }
+        background: url(../img/black_left-white_s.png) no-repeat 320px top, url(../img/black_rigth-white_s.png) no-repeat 320px bottom, url(../img/black-line-skobka.png) repeat-y 334px, url(../img/lish4.png) no-repeat left/50px; } }
     @media screen and (max-width: 600px) {
       .design_group_2.active1 {
         background: url(../img/black_left-white_s.png) no-repeat 193px top, url(../img/black_rigth-white_s.png) no-repeat 193px bottom, url(../img/black-line-skobka.png) repeat-y 207.5px, url(../img/lish4.png) no-repeat left/50px; } }
 
 .characterization_group {
-  background: url(../img/black_left-white_s.png) no-repeat 310px top, url(../img/black_rigth-white_s.png) no-repeat 310px bottom, url(../img/black-line-skobka.png) repeat-y 325px;
+  background: url(../img/black_left-white_s.png) no-repeat 320px top, url(../img/black_rigth-white_s.png) no-repeat 320px bottom, url(../img/black-line-skobka.png) repeat-y 334px;
   display: flex; }
   @media screen and (max-width: 600px) {
     .characterization_group {
@@ -143,16 +144,16 @@
       .characterization_group > li:last-child {
         font-size: 12px; } }
   .characterization_group.active1 {
-    background: url(../img/black_left-white_s.png) no-repeat 310px top, url(../img/black_rigth-white_s.png) no-repeat 310px bottom, url(../img/black-line-skobka.png) repeat-y 325px, url(../img/lish4.png) no-repeat left/64px; }
+    background: url(../img/black_left-white_s.png) no-repeat 320px top, url(../img/black_rigth-white_s.png) no-repeat 320px bottom, url(../img/black-line-skobka.png) repeat-y 334px, url(../img/lish4.png) no-repeat left/64px; }
     @media screen and (max-width: 600px) {
       .characterization_group.active1 {
-        background: url(../img/black_left-white_s.png) no-repeat 310px top, url(../img/black_rigth-white_s.png) no-repeat 310px bottom, url(../img/black-line-skobka.png) repeat-y 325px, url(../img/lish4.png) no-repeat left/50px; } }
+        background: url(../img/black_left-white_s.png) no-repeat 320px top, url(../img/black_rigth-white_s.png) no-repeat 320px bottom, url(../img/black-line-skobka.png) repeat-y 334px, url(../img/lish4.png) no-repeat left/50px; } }
     @media screen and (max-width: 600px) {
       .characterization_group.active1 {
         background: url(../img/black_left-white_s.png) no-repeat 193px top, url(../img/black_rigth-white_s.png) no-repeat 193px bottom, url(../img/black-line-skobka.png) repeat-y 207.5px, url(../img/lish4.png) no-repeat left/50px; } }
 
 .characterization_group_1 {
-  background: url(../img/black_left-white_s.png) no-repeat 310px top, url(../img/black_rigth-white_s.png) no-repeat 310px bottom, url(../img/black-line-skobka.png) repeat-y 325px;
+  background: url(../img/black_left-white_s.png) no-repeat 320px top, url(../img/black_rigth-white_s.png) no-repeat 320px bottom, url(../img/black-line-skobka.png) repeat-y 334px;
   display: flex; }
   @media screen and (max-width: 600px) {
     .characterization_group_1 {
@@ -166,16 +167,16 @@
       .characterization_group_1 > li:last-child {
         font-size: 12px; } }
   .characterization_group_1.active1 {
-    background: url(../img/black_left-white_s.png) no-repeat 310px top, url(../img/black_rigth-white_s.png) no-repeat 310px bottom, url(../img/black-line-skobka.png) repeat-y 325px, url(../img/lish2.png) no-repeat left/64px; }
+    background: url(../img/black_left-white_s.png) no-repeat 320px top, url(../img/black_rigth-white_s.png) no-repeat 320px bottom, url(../img/black-line-skobka.png) repeat-y 334px, url(../img/lish2.png) no-repeat left/64px; }
     @media screen and (max-width: 600px) {
       .characterization_group_1.active1 {
-        background: url(../img/black_left-white_s.png) no-repeat 310px top, url(../img/black_rigth-white_s.png) no-repeat 310px bottom, url(../img/black-line-skobka.png) repeat-y 325px, url(../img/lish2.png) no-repeat left/50px; } }
+        background: url(../img/black_left-white_s.png) no-repeat 320px top, url(../img/black_rigth-white_s.png) no-repeat 320px bottom, url(../img/black-line-skobka.png) repeat-y 334px, url(../img/lish2.png) no-repeat left/50px; } }
     @media screen and (max-width: 600px) {
       .characterization_group_1.active1 {
         background: url(../img/black_left-white_s.png) no-repeat 193px top, url(../img/black_rigth-white_s.png) no-repeat 193px bottom, url(../img/black-line-skobka.png) repeat-y 207.5px, url(../img/lish2.png) no-repeat left/50px; } }
 
 .characterization_group_2 {
-  background: url(../img/black_left-white_s.png) no-repeat 310px top, url(../img/black_rigth-white_s.png) no-repeat 310px bottom, url(../img/black-line-skobka.png) repeat-y 325px;
+  background: url(../img/black_left-white_s.png) no-repeat 320px top, url(../img/black_rigth-white_s.png) no-repeat 320px bottom, url(../img/black-line-skobka.png) repeat-y 334px;
   display: flex; }
   @media screen and (max-width: 600px) {
     .characterization_group_2 {
@@ -189,16 +190,16 @@
       .characterization_group_2 > li:last-child {
         font-size: 12px; } }
   .characterization_group_2.active1 {
-    background: url(../img/black_left-white_s.png) no-repeat 310px top, url(../img/black_rigth-white_s.png) no-repeat 310px bottom, url(../img/black-line-skobka.png) repeat-y 325px, url(../img/lish4.png) no-repeat left/64px; }
+    background: url(../img/black_left-white_s.png) no-repeat 320px top, url(../img/black_rigth-white_s.png) no-repeat 320px bottom, url(../img/black-line-skobka.png) repeat-y 334px, url(../img/lish4.png) no-repeat left/64px; }
     @media screen and (max-width: 600px) {
       .characterization_group_2.active1 {
-        background: url(../img/black_left-white_s.png) no-repeat 310px top, url(../img/black_rigth-white_s.png) no-repeat 310px bottom, url(../img/black-line-skobka.png) repeat-y 325px, url(../img/lish4.png) no-repeat left/50px; } }
+        background: url(../img/black_left-white_s.png) no-repeat 320px top, url(../img/black_rigth-white_s.png) no-repeat 320px bottom, url(../img/black-line-skobka.png) repeat-y 334px, url(../img/lish4.png) no-repeat left/50px; } }
     @media screen and (max-width: 600px) {
       .characterization_group_2.active1 {
         background: url(../img/black_left-white_s.png) no-repeat 193px top, url(../img/black_rigth-white_s.png) no-repeat 193px bottom, url(../img/black-line-skobka.png) repeat-y 207.5px, url(../img/lish4.png) no-repeat left/50px; } }
 
 .characterization_group_3 {
-  background: url(../img/black_left-white_s.png) no-repeat 310px top, url(../img/black_rigth-white_s.png) no-repeat 310px bottom, url(../img/black-line-skobka.png) repeat-y 325px;
+  background: url(../img/black_left-white_s.png) no-repeat 320px top, url(../img/black_rigth-white_s.png) no-repeat 320px bottom, url(../img/black-line-skobka.png) repeat-y 334px;
   display: flex; }
   @media screen and (max-width: 600px) {
     .characterization_group_3 {
@@ -212,10 +213,10 @@
       .characterization_group_3 > li:last-child {
         font-size: 12px; } }
   .characterization_group_3.active1 {
-    background: url(../img/black_left-white_s.png) no-repeat 310px top, url(../img/black_rigth-white_s.png) no-repeat 310px bottom, url(../img/black-line-skobka.png) repeat-y 325px, url(../img/lish2.png) no-repeat left/64px; }
+    background: url(../img/black_left-white_s.png) no-repeat 320px top, url(../img/black_rigth-white_s.png) no-repeat 320px bottom, url(../img/black-line-skobka.png) repeat-y 334px, url(../img/lish2.png) no-repeat left/64px; }
     @media screen and (max-width: 600px) {
       .characterization_group_3.active1 {
-        background: url(../img/black_left-white_s.png) no-repeat 310px top, url(../img/black_rigth-white_s.png) no-repeat 310px bottom, url(../img/black-line-skobka.png) repeat-y 325px, url(../img/lish2.png) no-repeat left/50px; } }
+        background: url(../img/black_left-white_s.png) no-repeat 320px top, url(../img/black_rigth-white_s.png) no-repeat 320px bottom, url(../img/black-line-skobka.png) repeat-y 334px, url(../img/lish2.png) no-repeat left/50px; } }
     @media screen and (max-width: 600px) {
       .characterization_group_3.active1 {
         background: url(../img/black_left-white_s.png) no-repeat 193px top, url(../img/black_rigth-white_s.png) no-repeat 193px bottom, url(../img/black-line-skobka.png) repeat-y 207.5px, url(../img/lish2.png) no-repeat left/50px; } }
@@ -265,10 +266,6 @@
       @media screen and (max-width: 600px) {
         .contain .contain_left .input_space {
           background-position-x: 60px; } }
-    .contain .contain_left .strategic_council {
-      background: url(../img/lish.png) no-repeat;
-      background-position-x: 0px;
-      background-position-y: 157px; }
   .contain .contain_rigth {
     width: 100%; }
     @media screen and (max-width: 900px) {
@@ -276,7 +273,7 @@
         width: auto; } }
 
 .contain_left_in {
-  width: 240px;
+  width: 252px;
   margin-left: 64px; }
   @media screen and (max-width: 600px) {
     .contain_left_in {
@@ -311,7 +308,7 @@
       .release_bottom > li > ul > li:last-child {
         text-align: center;
         color: #000080;
-        margin-top: 8px; }
+        margin-top: 26px; }
         @media screen and (max-width: 900px) {
           .release_bottom > li > ul > li:last-child {
             text-align: left; } }
@@ -602,7 +599,7 @@
         margin: 20px 140px; }
         @media screen and (max-width: 600px) {
           .each_block > ul > li:nth-child(4) img {
-            margin: 0px 140px; } }
+            margin: 0px 146px; } }
     .each_block > ul > li:nth-child(7) {
       order: 5; }
     .each_block > ul > li:nth-child(5) {
