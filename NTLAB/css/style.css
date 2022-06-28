@@ -330,7 +330,7 @@
   list-style-position: inside;
   padding-bottom: 46px;
   padding-right: 0px;
-  background: url(../img/black_rigth-white_r.png) no-repeat left 37px, url(../img/black_rigth-white_s.png) no-repeat right 37px, url(../img/black-line-skobka-bottom.png) repeat-x 0px 52px; }
+  background: url(../img/black_rigth-white_r.png) no-repeat left 37px, url(../img/black_rigth-white_s.png) no-repeat right 36px, url(../img/black-line-skobka-bottom.png) repeat-x 0px 52px; }
   @media screen and (max-width: 900px) {
     .realese_ul {
       flex-direction: column;
@@ -379,7 +379,7 @@
         font-weight: 400; }
       .realese_ul > li div hr {
         height: 1px;
-        margin-top: 5px;
+        margin-top: 3px;
         margin-bottom: 2px;
         width: 20px;
         color: black;
@@ -399,7 +399,7 @@
   color: #000080;
   font-weight: 600;
   padding-bottom: 46px;
-  background: url(../img/black_rigth-white_r.png) no-repeat left 37px, url(../img/black_rigth-white_s.png) no-repeat right 37px, url(../img/black-line-skobka-bottom.png) repeat-x 0px 52px; }
+  background: url(../img/black_rigth-white_r.png) no-repeat left 37px, url(../img/black_rigth-white_s.png) no-repeat right 36px, url(../img/black-line-skobka-bottom.png) repeat-x 0px 52px; }
   @media screen and (max-width: 900px) {
     .vnutri_1 {
       background: url(../img/black_left-white_s.png) no-repeat 210px top, url(../img/black_rigth-white_s.png) no-repeat 210px bottom, url(../img/black-line-skobka.png) repeat-y 225px;
@@ -433,7 +433,7 @@
       font-weight: 400; }
     .vnutri_1 .vnutri_1_1 hr {
       height: 1px;
-      margin-top: 5px;
+      margin-top: 3px;
       margin-bottom: 2px;
       width: 20px;
       color: black;
@@ -488,7 +488,7 @@
           font-weight: 400; }
         .bloki > li > ul > li:last-child .accordion-body ul li hr {
           height: 1px;
-          margin-top: 5px;
+          margin-top: 3px;
           margin-bottom: 2px;
           width: 20px;
           color: black;
@@ -553,7 +553,7 @@
             font-weight: 400; }
           .each_block > ul > li .accordion-body > ul > li hr {
             height: 1px;
-            margin-top: 5px;
+            margin-top: 3px;
             margin-bottom: 2px;
             width: 20px;
             color: black;
@@ -572,7 +572,7 @@
               font-weight: 400; }
             .each_block > ul > li .accordion-body > ul > li div hr {
               height: 1px;
-              margin-top: 5px;
+              margin-top: 3px;
               margin-bottom: 2px;
               width: 20px;
               color: black;
