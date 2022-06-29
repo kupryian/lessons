@@ -60,6 +60,16 @@
     margin: 0 5px; 
     flex-shrink: 0;
 }
+.ramka2 {
+    height: 25px; 
+    border-left: 2px solid black; 
+    border-bottom: 2px solid black; 
+    border-right: 2px solid black;
+    border-bottom-right-radius: 25px; 
+    border-bottom-left-radius: 25px; 
+    margin-top: 5px; 
+    flex-shrink: 0;
+}
 .wrap_pl_tc {
 
     &.active1 {
@@ -347,7 +357,7 @@
         flex-direction: row;
         @media screen and (max-width: 900px) {
             flex-direction: column;
-            }
+        }
         >ul {
             display: flex;
             flex-direction: column;
@@ -364,23 +374,41 @@
             >li:last-child {
                 text-align: center;
                 color:#000080;
-                margin-top: 26px;
+                margin-top: 15px;
                 @media screen and (max-width: 900px) {
                     text-align: left;
+                }
+                .p_mar {
+                    margin-right: -99px;
+                    @media screen and (max-width: 900px) {
+                        margin-right: 0px;
+                    }
                 }
             }
             .release1_1 {
                     margin-top: 8px;
                     @media screen and (max-width: 900px) {
-                        margin-top: 123px!important;
+                        align-self: center;
                     }
             }
             .release1_2 {
                 margin-top: 8px;
                 @media screen and (max-width: 900px) {
-                    margin-top: 99px!important;
+                    align-self: center;
                 }
-        }      
+            }
+            .ramka1 {
+                display: none;
+                @media screen and (max-width: 900px) {
+                    display: block;
+                }
+            }
+            .ramka2 {
+                display: block;
+                @media screen and (max-width: 900px) {
+                    display: none;
+                }
+            }      
         }
     }
 }
@@ -389,18 +417,18 @@
         flex-direction: row;
         list-style-image: url(../img/ul_arrow.png);
         list-style-position: inside;
-        padding-bottom: 46px;
+        // padding-bottom: 46px;
         padding-right: 0px;
-        background: url(../img/black_rigth-white_r.png) no-repeat  left 37px, url(../img/black_rigth-white_s.png) no-repeat right 36px, url(../img/black-line-skobka-bottom.png) repeat-x 0px 52px;
+        // background: url(../img/black_rigth-white_r.png) no-repeat  left 37px, url(../img/black_rigth-white_s.png) no-repeat right 36px, url(../img/black-line-skobka-bottom.png) repeat-x 0px 52px;
         @media screen and (max-width: 900px) {
         flex-direction: column;
         list-style-image: none;
-        background: url(../img/black_left-white_s.png) no-repeat 210px top, url(../img/black_rigth-white_s.png) no-repeat 210px bottom, url(../img/black-line-skobka.png) repeat-y 225px;
+        // background: url(../img/black_left-white_s.png) no-repeat 210px top, url(../img/black_rigth-white_s.png) no-repeat 210px bottom, url(../img/black-line-skobka.png) repeat-y 225px;
         padding-bottom: 0px;
         padding-right: 20px;
         }
         @media screen and (max-width: 600px) {
-            background: url(../img/black_left-white_s.png) no-repeat 134px top, url(../img/black_rigth-white_s.png) no-repeat 134px bottom, url(../img/black-line-skobka.png) repeat-y 149px;
+            // background: url(../img/black_left-white_s.png) no-repeat 134px top, url(../img/black_rigth-white_s.png) no-repeat 134px bottom, url(../img/black-line-skobka.png) repeat-y 149px;
             padding-right: 5px; 
             
         }
@@ -415,7 +443,7 @@
                 width: auto;
             }
             @media screen and (max-width: 600px) {  
-                width: 154px;
+                width: 137px;
             }
                 .strelka {
                     display: none;
@@ -466,16 +494,16 @@
     position: relative;
     color:#000080;
     font-weight: 600;
-    padding-bottom: 46px;
-    background: url(../img/black_rigth-white_r.png) no-repeat left 37px, url(../img/black_rigth-white_s.png) no-repeat right 36px, url(../img/black-line-skobka-bottom.png) repeat-x 0px 52px;
+    // padding-bottom: 46px;
+    // background: url(../img/black_rigth-white_r.png) no-repeat left 37px, url(../img/black_rigth-white_s.png) no-repeat right 36px, url(../img/black-line-skobka-bottom.png) repeat-x 0px 52px;
     @media screen and (max-width: 900px) {
-        background: url(../img/black_left-white_s.png) no-repeat 210px top, url(../img/black_rigth-white_s.png) no-repeat 210px bottom, url(../img/black-line-skobka.png) repeat-y 225px;
+        // background: url(../img/black_left-white_s.png) no-repeat 210px top, url(../img/black_rigth-white_s.png) no-repeat 210px bottom, url(../img/black-line-skobka.png) repeat-y 225px;
         padding-bottom: 0px;
-        padding-right: 157px;
+        padding-right: 167px;
     }
     @media screen and (max-width: 600px) {
-        background: url(../img/black_left-white_s.png) no-repeat 134px top, url(../img/black_rigth-white_s.png) no-repeat 134px bottom, url(../img/black-line-skobka.png) repeat-y 149px;
-        padding-right: 85px;  
+        // background: url(../img/black_left-white_s.png) no-repeat 134px top, url(../img/black_rigth-white_s.png) no-repeat 134px bottom, url(../img/black-line-skobka.png) repeat-y 149px;
+        padding-right: 59px;  
     }
     .strelka {
         display: none;

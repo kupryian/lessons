@@ -46,6 +46,16 @@
   margin: 0 5px;
   flex-shrink: 0; }
 
+.ramka2 {
+  height: 25px;
+  border-left: 2px solid black;
+  border-bottom: 2px solid black;
+  border-right: 2px solid black;
+  border-bottom-right-radius: 25px;
+  border-bottom-left-radius: 25px;
+  margin-top: 5px;
+  flex-shrink: 0; }
+
 .wrap_pl_tc.active1 {
   background: url(../img/lish.png) no-repeat left 50px/64px, url(../img/lish3.png) no-repeat left 200px/64px; }
   @media screen and (max-width: 900px) {
@@ -277,39 +287,50 @@
       .release_bottom > li > ul > li:last-child {
         text-align: center;
         color: #000080;
-        margin-top: 26px; }
+        margin-top: 15px; }
         @media screen and (max-width: 900px) {
           .release_bottom > li > ul > li:last-child {
             text-align: left; } }
+        .release_bottom > li > ul > li:last-child .p_mar {
+          margin-right: -99px; }
+          @media screen and (max-width: 900px) {
+            .release_bottom > li > ul > li:last-child .p_mar {
+              margin-right: 0px; } }
       .release_bottom > li > ul .release1_1 {
         margin-top: 8px; }
         @media screen and (max-width: 900px) {
           .release_bottom > li > ul .release1_1 {
-            margin-top: 123px !important; } }
+            align-self: center; } }
       .release_bottom > li > ul .release1_2 {
         margin-top: 8px; }
         @media screen and (max-width: 900px) {
           .release_bottom > li > ul .release1_2 {
-            margin-top: 99px !important; } }
+            align-self: center; } }
+      .release_bottom > li > ul .ramka1 {
+        display: none; }
+        @media screen and (max-width: 900px) {
+          .release_bottom > li > ul .ramka1 {
+            display: block; } }
+      .release_bottom > li > ul .ramka2 {
+        display: block; }
+        @media screen and (max-width: 900px) {
+          .release_bottom > li > ul .ramka2 {
+            display: none; } }
 
 .realese_ul {
   display: flex;
   flex-direction: row;
   list-style-image: url(../img/ul_arrow.png);
   list-style-position: inside;
-  padding-bottom: 46px;
-  padding-right: 0px;
-  background: url(../img/black_rigth-white_r.png) no-repeat left 37px, url(../img/black_rigth-white_s.png) no-repeat right 36px, url(../img/black-line-skobka-bottom.png) repeat-x 0px 52px; }
+  padding-right: 0px; }
   @media screen and (max-width: 900px) {
     .realese_ul {
       flex-direction: column;
       list-style-image: none;
-      background: url(../img/black_left-white_s.png) no-repeat 210px top, url(../img/black_rigth-white_s.png) no-repeat 210px bottom, url(../img/black-line-skobka.png) repeat-y 225px;
       padding-bottom: 0px;
       padding-right: 20px; } }
   @media screen and (max-width: 600px) {
     .realese_ul {
-      background: url(../img/black_left-white_s.png) no-repeat 134px top, url(../img/black_rigth-white_s.png) no-repeat 134px bottom, url(../img/black-line-skobka.png) repeat-y 149px;
       padding-right: 5px; } }
   .realese_ul > li {
     padding-left: 5px;
@@ -323,7 +344,7 @@
         width: auto; } }
     @media screen and (max-width: 600px) {
       .realese_ul > li {
-        width: 154px; } }
+        width: 137px; } }
     .realese_ul > li .strelka {
       display: none;
       border: none; }
@@ -366,18 +387,14 @@
 .vnutri_1 {
   position: relative;
   color: #000080;
-  font-weight: 600;
-  padding-bottom: 46px;
-  background: url(../img/black_rigth-white_r.png) no-repeat left 37px, url(../img/black_rigth-white_s.png) no-repeat right 36px, url(../img/black-line-skobka-bottom.png) repeat-x 0px 52px; }
+  font-weight: 600; }
   @media screen and (max-width: 900px) {
     .vnutri_1 {
-      background: url(../img/black_left-white_s.png) no-repeat 210px top, url(../img/black_rigth-white_s.png) no-repeat 210px bottom, url(../img/black-line-skobka.png) repeat-y 225px;
       padding-bottom: 0px;
-      padding-right: 157px; } }
+      padding-right: 167px; } }
   @media screen and (max-width: 600px) {
     .vnutri_1 {
-      background: url(../img/black_left-white_s.png) no-repeat 134px top, url(../img/black_rigth-white_s.png) no-repeat 134px bottom, url(../img/black-line-skobka.png) repeat-y 149px;
-      padding-right: 85px; } }
+      padding-right: 59px; } }
   .vnutri_1 .strelka {
     display: none;
     border: none; }
