@@ -15,7 +15,7 @@ body {
     }
 }
 .block1 {
-    background: url(../img/Galileo_satellite.png) no-repeat right top;  
+    background: url(../img/Galileo_satellite.png) no-repeat right top; 
     @media screen and (max-width: 900px) {
         background: url(../img/Galileo_satellite.png) no-repeat right top;
     }
@@ -25,7 +25,13 @@ body {
     
 }
 .block2 {
+    background: url(../img/Rectangle16.png) no-repeat 55% top, url(../img/image27.png) no-repeat right top;
+    @media screen and (max-width: 1850px) {
+        background: url(../img/Rectangle16.png) no-repeat 35% top, url(../img/image27.png) no-repeat right top;
+        }
+    @media screen and (max-width: 1500px) {
     background: url(../img/Rectangle16.png) no-repeat left top, url(../img/image27.png) no-repeat right top;
+    }
     @media screen and (max-width: 1140px) {
         background: url(../img/Rectangle16.png) no-repeat left top, url(../img/image27.png) no-repeat top;
     }
@@ -41,9 +47,18 @@ body {
 
 }
 .block3 {
-    background: url(../img/Rectangle17.png) no-repeat right top, url(../img/image22.png) no-repeat left top;
+    background: url(../img/Rectangle17.png) no-repeat 41% top, url(../img/image22.png) no-repeat left top;
+    @media screen and (max-width: 1850px) {
+        background: url(../img/Rectangle17.png) no-repeat 65% top, url(../img/image22.png) no-repeat left top;
+    }
+    @media screen and (max-width: 1500px) {
+        background: url(../img/Rectangle17.png) no-repeat right top, url(../img/image22.png) no-repeat left top;
+    }
     @media screen and (max-width: 1140px) {
-        background: url(../img/Rectangle17.png) no-repeat right top, url(../img/image22.png) no-repeat -450px top;
+    background: url(../img/Rectangle17.png) no-repeat right top, url(../img/image22.png) no-repeat left top;
+    }
+    @media screen and (max-width: 1140px) {
+        background: url(../img/Rectangle17.png) no-repeat right top, url(../img/image22.png) no-repeat -310px top;
     }
     @media screen and (max-width: 900px) {
         background: url(../img/Rectangle17.png) no-repeat 90px top, url(../img/image22.png) no-repeat -450px top;
