@@ -17,10 +17,10 @@ body {
 .block1 {
     background: url(../img/Galileo_satellite.png) no-repeat right top;  
     @media screen and (max-width: 900px) {
-        background: url(../img/Galileo_satellite.png) no-repeat -30px top;
+        background: url(../img/Galileo_satellite.png) no-repeat right top;
     }
     @media screen and (max-width: 600px) {
-        background: url(../img/Galileo_satellite.png) no-repeat -210px top;
+        background: url(../img/Galileo_satellite.png) no-repeat right top / 370px;
     }
     
 }
@@ -31,6 +31,9 @@ body {
     }
     @media screen and (max-width: 900px) {
         background: url(../img/Rectangle16.png) no-repeat -170px top, url(../img/image27.png) no-repeat top;
+    }
+    @media screen and (max-width: 600px) {
+        background: url(../img/Rectangle16.png) no-repeat right top, url(../img/image27.png) no-repeat -340px top;
     }
 
     
@@ -45,12 +48,18 @@ body {
     @media screen and (max-width: 900px) {
         background: url(../img/Rectangle17.png) no-repeat 90px top, url(../img/image22.png) no-repeat -450px top;
     }
+    @media screen and (max-width: 600px) {
+        background: url(../img/Rectangle17.png) no-repeat left top, url(../img/image22.png) no-repeat -400px -90px;
+    }
 }
 .box1 {
     display: flex;
     flex-direction: column;
     justify-content: center;
     height: 755px;
+    @media screen and (max-width: 600px) {
+        height: 400px;
+    } 
     h1 {
         color: white;
         font-weight: 700;
@@ -79,9 +88,15 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    @media screen and (max-width: 600px) {
+        height: 400px;
+    }
     h2 {
         color: white;
         font-size: 36px;
+        @media screen and (max-width: 600px) {
+            font-size: 20px;
+        }
     }
     a {
         color: white;
@@ -95,6 +110,10 @@ body {
         }
         @media screen and (max-width: 900px) {
             margin: 0px 175px;
+        }
+        @media screen and (max-width: 600px) {
+            width: 200px;
+            margin: 0px ;
         }
     }
 }
@@ -105,9 +124,15 @@ body {
     flex-direction: column;
     justify-content: space-between;
     align-items: flex-end;
+    @media screen and (max-width: 600px) {
+        height: 400px;
+    } 
     h2 {
         color: white;
         font-size: 36px;
+        @media screen and (max-width: 600px) {
+            font-size: 20px;
+        }
     }
     a {
         color: white;
@@ -121,6 +146,10 @@ body {
         }
         @media screen and (max-width: 900px) {
             margin: 0px 175px;
+        }
+        @media screen and (max-width: 600px) {
+            width: 200px;
+            margin: 0px ;
         }
     }
 }
