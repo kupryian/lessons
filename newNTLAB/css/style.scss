@@ -1,0 +1,126 @@
+body {
+    background: #0C308E;
+}
+.contain {
+    width: 1140px;
+    margin: 0 auto;
+    @media screen and (max-width: 1140px) {
+        width: 900px;
+    }
+    @media screen and (max-width: 900px) {
+        width: 600px;
+    }
+    @media screen and (max-width: 600px) {
+        width: 320px;
+    }
+}
+.block1 {
+    background: url(../img/Galileo_satellite.png) no-repeat right top;  
+    @media screen and (max-width: 900px) {
+        background: url(../img/Galileo_satellite.png) no-repeat -30px top;
+    }
+    @media screen and (max-width: 600px) {
+        background: url(../img/Galileo_satellite.png) no-repeat -210px top;
+    }
+    
+}
+.block2 {
+    background: url(../img/Rectangle16.png) no-repeat left top, url(../img/image27.png) no-repeat right top;
+    @media screen and (max-width: 1140px) {
+        background: url(../img/Rectangle16.png) no-repeat left top, url(../img/image27.png) no-repeat top;
+    }
+    @media screen and (max-width: 900px) {
+        background: url(../img/Rectangle16.png) no-repeat -170px top, url(../img/image27.png) no-repeat top;
+    }
+
+    
+    
+
+}
+.block3 {
+    background: url(../img/Rectangle17.png) no-repeat right top, url(../img/image22.png) no-repeat left top;
+    @media screen and (max-width: 1140px) {
+        background: url(../img/Rectangle17.png) no-repeat right top, url(../img/image22.png) no-repeat -450px top;
+    }
+    @media screen and (max-width: 900px) {
+        background: url(../img/Rectangle17.png) no-repeat 90px top, url(../img/image22.png) no-repeat -450px top;
+    }
+}
+.box1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 755px;
+    h1 {
+        color: white;
+        font-weight: 700;
+        font-size: 72px;
+        line-height: 84.38px;
+        @media screen and (max-width: 1140px) {
+            font-size: 50px;
+            line-height: 50.38px;
+        }
+        @media screen and (max-width: 900px) {
+            
+        }
+        @media screen and (max-width: 600px) {
+            font-size: 30px;
+            line-height: 30.38px;
+        }  
+    }
+    p {
+        color: white;
+        font-size: 18px;
+    }
+}
+.box2 {
+    height: 638px;
+    padding: 50px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    h2 {
+        color: white;
+        font-size: 36px;
+    }
+    a {
+        color: white;
+        margin: 0px 20px;
+    }
+    img {
+        width: 300px;
+        margin: 0px 200px;
+        @media screen and (max-width: 1140px) {
+            margin: 0px 300px;
+        }
+        @media screen and (max-width: 900px) {
+            margin: 0px 175px;
+        }
+    }
+}
+.box3 {
+    height: 638px;
+    padding: 50px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+    h2 {
+        color: white;
+        font-size: 36px;
+    }
+    a {
+        color: white;
+        margin: 0px 20px;
+    }
+    img {
+        width: 300px;
+        margin: 0px 200px;
+        @media screen and (max-width: 1140px) {
+            margin: 0px 300px;
+        }
+        @media screen and (max-width: 900px) {
+            margin: 0px 175px;
+        }
+    }
+}
