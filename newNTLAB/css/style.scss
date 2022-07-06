@@ -1,5 +1,5 @@
 body {
-    
+    background-color: #0C308E;
 }
 .contain {
     width: 1440px;
@@ -18,7 +18,13 @@ body {
     // }
 }
 .block1 {
-    
+    background: url(../img/Galileo_satellite.png) no-repeat right top, linear-gradient(#0C308E, #0C308E); 
+    @media screen and (max-width: 900px) {
+        background: url(../img/Galileo_satellite.png) no-repeat right top, linear-gradient(#0C308E, #0C308E);
+    }
+    @media screen and (max-width: 600px) {
+        background: url(../img/Galileo_satellite.png) no-repeat right top / 370px, linear-gradient(#0C308E, #0C308E);
+    }
 }
 .block2 {
     // background: url(../img/Rectangle16.png) no-repeat 55% top, url(../img/image27.png) no-repeat right top;
@@ -58,13 +64,7 @@ body {
     
 }
 .box1 {
-    background: url(../img/Galileo_satellite.png) no-repeat right top, linear-gradient(#0C308E, #0C308E); 
-    @media screen and (max-width: 900px) {
-        background: url(../img/Galileo_satellite.png) no-repeat right top, linear-gradient(#0C308E, #0C308E);
-    }
-    @media screen and (max-width: 600px) {
-        background: url(../img/Galileo_satellite.png) no-repeat right top / 370px, linear-gradient(#0C308E, #0C308E);
-    }
+
     display: flex;
     padding: 50px;
     flex-direction: column;
@@ -96,15 +96,22 @@ body {
     }
 }
 .box2 {
-    background: url(../img/Rectangle16.png) no-repeat left top, url(../img/image27.png) no-repeat right top;
+    background:  url(../img/image27.png) no-repeat right top;
     height: 638px;
     padding: 50px 50px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    @media screen and (max-width: 1440px) {
+    background: url(../img/image27.png) no-repeat 230px top;
+    }
+    @media screen and (max-width: 1140px) {
+    background: url(../img/Rectangle16.png) no-repeat -160px top, url(../img/image27.png) no-repeat -180px top;
+    }
     @media screen and (max-width: 600px) {
+        background: url(../img/image27.png) no-repeat 70px top / 530px;
         height: 300px;
-        padding: 10px 50px;
+        padding: 10px 10px;
     }
     h2 {
         color: white;
@@ -116,34 +123,57 @@ body {
     a {
         color: white;
         margin: 0px 20px;
+        font-size: 24px;
+        @media screen and (max-width: 900px) {
+            font-size: 16px;
+        }
+        transform: translateY(0px);
+        transition: 0.5s;
+    }
+    a:hover {
+        transform: translateY(-7px);
+        transition: 0.5s;
     }
     img {
         width: 300px;
         margin: 0px 300px;
+        transform: scale(1);
+        transition: 0.5s;
         @media screen and (max-width: 1140px) {
-            margin: 0px 300px;
+            margin: 0px 120px;
         }
         @media screen and (max-width: 900px) {
             margin: 0px 175px;
         }
         @media screen and (max-width: 600px) {
             width: 200px;
-            margin: 0px ;
+            margin: 0px 80px ;
         }
+    }
+    img:hover {
+        transform: scale(1.1);
+        transition: 0.5s;
     }
 }
 .box3 {
-    background: url(../img/Rectangle17.png) no-repeat right top, url(../img/image22.png) no-repeat left top;
+    background: url(../img/image22.png) no-repeat left top;
     height: 638px;
     padding: 50px 50px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: flex-end;
+    @media screen and (max-width: 1440px) {
+        background: url(../img/image22.png) no-repeat -230px top;;
+        }
+    @media screen and (max-width: 1140px) {
+    background: url(../img/Rectangle17.png) no-repeat 380px top, url(../img/image22.png) no-repeat -180px top;
+    }
     @media screen and (max-width: 600px) {
+        background: url(../img/image22.png) no-repeat -210px top / 550px;
         height: 300px;
-        padding: 10px 50px;
-    } 
+        padding: 10px 10px;
+    }
     h2 {
         color: white;
         font-size: 36px;
@@ -154,19 +184,223 @@ body {
     a {
         color: white;
         margin: 0px 20px;
+        font-size: 24px;
+        @media screen and (max-width: 900px) {
+            font-size: 16px;
+        }
+        transform: translateY(0px);
+        transition: 0.5s;
+    }
+    a:hover {
+        transform: translateY(-7px);
+        transition: 0.5s;
     }
     img {
         width: 300px;
-        margin: 0px 200px;
+        margin: 0px 300px;
+        transform: scale(1);
+        transition: 0.5s;
         @media screen and (max-width: 1140px) {
-            margin: 0px 300px;
+            margin: 0px 120px;
+        }
+        @media screen and (max-width: 900px) {
+            margin: 0px 0px 0px 250px;
+        }
+        @media screen and (max-width: 600px) {
+            width: 200px;
+            margin: 0px auto;
+            align-self: flex-start;
+        }
+    }
+    img:hover {
+        transform: scale(1.1);
+        transition: 0.5s;
+    }
+}
+.box4 {
+    background:  url(../img/image26.png) no-repeat right top;
+    height: 638px;
+    padding: 50px 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    @media screen and (max-width: 1440px) {
+    background: url(../img/image26.png) no-repeat 230px top;
+    }
+    @media screen and (max-width: 1140px) {
+    background: url(../img/Rectangle16.png) no-repeat -160px top, url(../img/image26.png) no-repeat -180px top;
+    }
+    @media screen and (max-width: 600px) {
+        background: url(../img/image26.png) no-repeat 70px top / 530px;
+        height: 300px;
+        padding: 10px 10px;
+    }
+    h2 {
+        color: white;
+        font-size: 36px;
+        @media screen and (max-width: 600px) {
+            font-size: 20px;
+        }
+    }
+    a {
+        color: white;
+        margin: 0px 20px;
+        font-size: 24px;
+        @media screen and (max-width: 900px) {
+            font-size: 16px;
+        }
+        transform: translateY(0px);
+        transition: 0.5s;
+    }
+    a:hover {
+        transform: translateY(-7px);
+        transition: 0.5s;
+    }
+    img {
+        width: 300px;
+        margin: 0px 300px;
+        transform: scale(1);
+        transition: 0.5s;
+        @media screen and (max-width: 1140px) {
+            margin: 0px 120px;
         }
         @media screen and (max-width: 900px) {
             margin: 0px 175px;
         }
         @media screen and (max-width: 600px) {
             width: 200px;
-            margin: 0px ;
+            margin: 0px 80px ;
         }
+    }
+    img:hover {
+        transform: scale(1.1);
+        transition: 0.5s;
+    }
+}
+.box5 {
+    background: url(../img/image20.png) no-repeat left top;
+    height: 638px;
+    padding: 50px 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+    @media screen and (max-width: 1440px) {
+        background: url(../img/image20.png) no-repeat -230px top;;
+        }
+    @media screen and (max-width: 1140px) {
+    background: url(../img/Rectangle17.png) no-repeat 380px top, url(../img/image20.png) no-repeat -180px top;
+    }
+    @media screen and (max-width: 600px) {
+        background: url(../img/image20.png) no-repeat -210px top / 550px;
+        height: 300px;
+        padding: 10px 10px;
+    }
+    h2 {
+        color: white;
+        font-size: 36px;
+        width: auto;
+        @media screen and (max-width: 600px) {
+            font-size: 20px;
+            width: 180px;
+            text-align: right;
+        }
+    }
+    a {
+        color: white;
+        margin: 0px 20px;
+        font-size: 24px;
+        @media screen and (max-width: 900px) {
+            font-size: 16px;
+        }
+        transform: translateY(0px);
+        transition: 0.5s;
+    }
+    a:hover {
+        transform: translateY(-7px);
+        transition: 0.5s;
+    }
+    img {
+        width: 300px;
+        margin: 0px 300px;
+        transform: scale(1);
+        transition: 0.5s;
+        @media screen and (max-width: 1140px) {
+            margin: 0px 120px;
+        }
+        @media screen and (max-width: 900px) {
+            margin: 0px 0px 0px 250px;
+        }
+        @media screen and (max-width: 600px) {
+            width: 200px;
+            margin: 0px auto;
+            align-self: flex-start;
+        }
+    }
+    img:hover {
+        transform: scale(1.1);
+        transition: 0.5s;
+    }
+}
+.box6 {
+    background:  url(../img/image24.png) no-repeat right top;
+    height: 638px;
+    padding: 50px 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    @media screen and (max-width: 1440px) {
+    background: url(../img/image24.png) no-repeat 230px top;
+    }
+    @media screen and (max-width: 1140px) {
+    background: url(../img/Rectangle16.png) no-repeat -160px top, url(../img/image24.png) no-repeat -180px top;
+    }
+    @media screen and (max-width: 600px) {
+        background: url(../img/image24.png) no-repeat 70px top / 530px;
+        height: 300px;
+        padding: 10px 10px;
+    }
+    h2 {
+        color: white;
+        font-size: 36px;
+        width: auto;
+        @media screen and (max-width: 600px) {
+            font-size: 20px;
+            width: 180px;
+        }
+    }
+    a {
+        color: white;
+        margin: 0px 20px;
+        font-size: 24px;
+        @media screen and (max-width: 900px) {
+            font-size: 16px;
+        }
+        transform: translateY(0px);
+        transition: 0.5s;
+    }
+    a:hover {
+        transform: translateY(-7px);
+        transition: 0.5s;
+    }
+    img {
+        width: 300px;
+        margin: 0px 300px;
+        transform: scale(1);
+        transition: 0.5s;
+        @media screen and (max-width: 1140px) {
+            margin: 0px 120px;
+        }
+        @media screen and (max-width: 900px) {
+            margin: 0px 175px;
+        }
+        @media screen and (max-width: 600px) {
+            width: 200px;
+            margin: 0px 80px ;
+        }
+    }
+    img:hover {
+        transform: scale(1.1);
+        transition: 0.5s;
     }
 }
