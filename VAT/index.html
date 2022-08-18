@@ -23,6 +23,8 @@
         
     function calc () { 
         let brutto = document.getElementById("brutto").value;
+        brutto = brutto.replace(",", ".").replace(/\s/, "");
+        console.log(brutto);
         let vat = (brutto-(brutto/1.23)).toFixed(2);
         let netto = brutto-vat;
         console.log(vat);
