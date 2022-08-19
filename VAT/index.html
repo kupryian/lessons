@@ -26,7 +26,7 @@
         brutto = brutto.replace(",", ".").replace(/\s+/, "");
         console.log(brutto);
         let vat = (brutto-(brutto/1.23)).toFixed(2);
-        let netto = brutto-vat;
+        let netto = (brutto-vat).toFixed(2);
         console.log(vat);
         console.log(netto);
         let vatOut = document.getElementById("vat");
