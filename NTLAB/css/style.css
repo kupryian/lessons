@@ -252,7 +252,7 @@
         width: auto; } }
 
 .contain_left_in {
-  width: 252px;
+  width: 292px;
   margin-left: 64px; }
   @media screen and (max-width: 600px) {
     .contain_left_in {
